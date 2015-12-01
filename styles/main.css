@@ -1,0 +1,133 @@
+
+body {
+    div {
+        /*This means that even if you add padding, 100% width still works*/
+        box-sizing: border-box;
+    }
+}
+a {
+    color: inherit;
+}
+.full-width {
+    width: 100%;
+    float: left;
+}
+.center {
+    text-align: center;
+}
+
+.tara-splash {
+    color: #fff;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+.tara-background-image {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.tara-header {
+    float: left;
+    width: 100%;
+    /* rgba = red, green, blue, alpha
+    and alpha = opacity, so we have a slightly darkened background*/
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2% 2% 1% 2%;
+    box-sizing: border-box;
+}
+.tara-header-title-wrapper {
+    float: left;
+    width: 50%;
+}
+.tara-header-title {
+    font-size: 6em;
+    border-bottom:3px solid #847e9a;
+    line-height: 95%;
+}
+.tara-header-subtitle {
+    font-style: italic;
+    font-size: 2em;
+    font-weight: 200;
+}
+.tara-header-quote {
+    float: right;
+    margin-right: 10%;
+    width: 10em;
+    font-style: italic;
+    font-size: 1.6em;
+    text-align:right;
+    line-height: 125%;
+}
+
+.tara-welcome {
+    float: left;
+    clear: both;
+    width: 50%;
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2%;
+    box-sizing: border-box;
+}
+.tara-welcome-title {
+    width: 100%;
+    float: left;
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+.tara-resume {
+    font-style: italic;
+}
+
+.tara-welcome-body {
+    width: 100%;
+    float: left;
+    font-size: 28px;
+}
+.tara-upcoming {
+    float: left;
+    padding-left: 2%;
+    clear: both;
+    margin-top: 5%;
+    width: 30%;
+}
+.tara-upcoming li {
+    margin-bottom: 12px;
+    float: left;
+    width: 100%;
+    padding: 12px 6px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 28px;
+}
+
+.tara-upcoming-event-date {
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+}
+.tara-upcoming-event-content {
+    width: 75%;
+    float: left;
+}
+.tara-upcoming-event-title {
+    float: left;
+    width: 100%;
+    margin-bottom: 6px;
+
+}
+.tara-upcoming-event-location {
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    border-bottom:3px solid #847e9a;
+}
