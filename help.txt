@@ -1,5 +1,55 @@
+###################################################
+					GIT STUFF
+###################################################
+
 git status -> whats going on with my folder with regards to git?
 
 git add --all -> "stages" everything for commit
 
 git commit -a -m 'message' -> commits everything with a message
+
+git push -> pushes your stuff to github. NOTE: sometimes it will 'fail' like if someone else added some stuff that conflicts... so then you run:
+
+git pull -> pulls stuff from github and tries to merge it with your stuff
+
+
+
+NOTES:
+
+if you get stuck because you didn't type '-m' and do your message, you are inside "vim" which is a program that runs in the command line that does text editing. type the letter "i" which puts you in insert mode, type your message, hit esc, then type :wq and hit enter. Don't forget that colon. 
+
+###################################################
+					PUNCH STUFF
+###################################################
+
+//installing punch
+
+sudo npm install -g punch
+
+// running the server
+
+punch s
+
+// generating the site
+
+punch g
+
+###################################################
+				GENERAL SITE STUFF
+###################################################
+
+
+1) punch is set to output all the shit from your source and data folders just right out to the root... so you'll have a ton of folders and stuff on the outside... just roll with it.
+
+2) Technically, if you want to like delete a path that you had working previously, you might want to delete the outer folder. So for example if you have /mylife/ as a path on your site and then you decide you'd rather call it /myawesomelife/ and then you re-run 'punch g' you'll have a folder on the outer layer called mylife and a folder called myawesomelife cuz punch wont delete the old shit... so just be aware
+
+3) dont forget to be zoomed to 0!
+
+4) goooob
+
+###################################################
+				Tara's questions
+###################################################
+
+
+
