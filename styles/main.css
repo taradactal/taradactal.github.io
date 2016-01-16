@@ -8,6 +8,12 @@ body {
 a {
     color: inherit;
 }
+
+body{
+    background-color: #F5F0E6;
+
+}
+
 .full-width {
     width: 100%;
     float: left;
@@ -17,14 +23,10 @@ a {
 }
 
 .tara-splash {
-    color: #fff;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    float: left;
     width: 100%;
 }
+/*
 .tara-background-image {
     position: fixed;
     min-width: 100%;
@@ -33,101 +35,210 @@ a {
     height: auto;
     z-index: -1;
 }
+*/
 
 .tara-header {
     float: left;
     width: 100%;
-    /* rgba = red, green, blue, alpha
-    and alpha = opacity, so we have a slightly darkened background*/
-    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
     padding: 2% 2% 1% 2%;
     box-sizing: border-box;
+    height: 150px;
 }
-.tara-header-title-wrapper {
-    float: left;
-    width: 50%;
+.tara-header-nav-wrapper {
+    margin: 0 auto;
+    width: 600px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -300px;
 }
 .tara-header-title {
-    font-size: 6em;
-    border-bottom:3px solid #847e9a;
+    color: #000;
+    text-align: center;
+    font-size: 5em;
+    border-bottom: 2px solid rgba(192, 192, 192, 1);
     line-height: 95%;
-}
-.tara-header-subtitle {
-    font-style: italic;
-    font-size: 2em;
-    font-weight: 200;
+
 }
 .tara-header-quote {
+    color: #000;
     float: right;
-    margin-right: 10%;
+    margin-right: 5%;
     width: 10em;
-    font-style: italic;
-    font-size: 1.6em;
+    font-size: 1em;
     text-align:right;
     line-height: 125%;
 }
 
-.tara-welcome {
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.nav a:hover{
+    color:red;
+}
+
+.tara-body {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+.homepage-bar{
+    margin-top: 40px;
+    width: 1300px;
+    clear:left;
     float: left;
-    clear: both;
-    width: 50%;
+}
+
+
+.homepage-column{
+    width:400px;
+    float:left;
     margin-top: 5%;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 2%;
-    box-sizing: border-box;
-}
-.tara-welcome-title {
-    width: 100%;
-    float: left;
-    font-size: 36px;
-    margin-bottom: 12px;
-}
-.tara-resume {
-    font-style: italic;
-}
-
-.tara-welcome-body {
-    width: 100%;
-    float: left;
-    font-size: 28px;
-}
-.tara-upcoming {
-    float: left;
-    padding-left: 2%;
-    clear: both;
-    margin-top: 5%;
-    width: 30%;
-}
-.tara-upcoming li {
-    margin-bottom: 12px;
-    float: left;
-    width: 100%;
-    padding: 12px 6px;
-    box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.4);
-    font-size: 28px;
-}
-
-.tara-upcoming-event-date {
-    float: left;
-    width: 20%;
-    margin-right: 5%;
-}
-.tara-upcoming-event-content {
-    width: 75%;
-    float: left;
-}
-.tara-upcoming-event-title {
-    float: left;
-    width: 100%;
-    margin-bottom: 6px;
+    height:670px;
+    margin-right: 40px;
 
 }
-.tara-upcoming-event-location {
+.column-three{
+    margin-right: 0px;
+}
+
+.teaser{
+    width: 400px;
+    position: relative;
     float: left;
-    width: 100%;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 600;
-    border-bottom:3px solid #847e9a;
+}
+.teaser-frost {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    opacity: .3;
+}
+
+.teaser-title{
+    color:white;
+    text-align: center;
+    font-size: 2.6em;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -10px;
+}
+
+
+
+.news-teaser{
+    background-color: brown;
+    height:670px;
+}
+
+.news-teaser-title{
+    margin-top: -280px;
+}
+
+
+.media-teaser{
+    background-color: black;
+    height:280px;
+    background-image: url('/photos/bryantandstrattongrab.png');
+    background-size:130%;
+    background-repeat: no-repeat;
+    background-position-y:-5px;
+}
+
+.reps-teaser{
+    background-color: grey;
+    height:350px;
+    margin-top: 40px;
+}
+
+.about-teaser {
+    background-color: green;
+    height:500px;
+    background-image: url('/photos/taraheadshot.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position-y: -30px;
+}
+
+.about-teaser-title{
+    margin-top: 50px;
+}
+
+
+.contact-teaser{
+    background-color: orange;
+    height: 130px;
+    margin-top: 40px;
+}
+
+.contact-teaser-title{
+    margin-top: -20px;
+}
+
+.directing-teaser{
+    background-color: blue;
+    height:240px;
+    background-image: url('/photos/directingteaser.jpg');
+    background-size: 125%;
+    background-position:-20px -15px;
+    background-repeat: no-repeat;
+
+}
+
+.random-teaser{
+    background-color: tan;
+    height:240px;
+    width:840px;
+    margin-left: 40px;
+}
+
+.homepage-rep{
+    height:100px ;
+    width:385px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.aboutface-section{
+    float:left;
+    margin-top: 20px;
+}
+
+.multiethnic-section {
+    float: left;
+    margin-top: 100px;
+    position:absolute;
+    bottom:15px;
+    right:0;
+}    
+
+.rep-name{
+    /*bolder font family when fonts are loaded*/
+    font-size: 1.5em;
+    color:white;
+    text-align: left;
+    line-height: 40px;
+}
+
+.agent-email{
+    font-size:1em;
 }

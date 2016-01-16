@@ -1,0 +1,105 @@
+maybe useful for mobile
+
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Tara Pacheco</title>
+        <meta name="description" content="Tara Pacheco's Personal Site">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="/styles/normalize.css">
+        <link rel="stylesheet" href="/styles/main.css">
+    </head>
+
+<!--BODY-->
+    <body class="tara-splash">
+        <header class="tara-header">
+            <div class="tara-header-title-wrapper">
+                <h1 class="tara-header-title">Tara Pacheco</h1>
+
+            </div>
+            <div class="nav-bar-wrapper">
+                <div class="nav-bar">
+                    <ul>
+                      <li ><a href="#">Home</a></li>
+                      <li ><a href="#">About</a></li>
+                      <li ><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+             </div>
+            <blockquote class="tara-header-quote"><a class="tara-resume" href="#">download </a> headshot and resume</blockquote>
+        </header>
+
+<!--beginning of the body as I think -->
+        <section class="tara-body"> 
+
+
+
+
+            <!-- NEWS SECTION figure out what this section will look like-->
+            <div class="tara-upcoming">
+                <h2 class="tara-upcoming-title">Upcoming</h2>
+                <!--
+                <ul>
+                    <li>
+                        <div class="tara-upcoming-event-date">
+                            <span class="full-width center">Nov</span>
+                            <span class="full-width center">12-22</span>
+                        </div>
+                        <div class="tara-upcoming-event-content">
+                            <div class="tara-upcoming-event-title">Assistant Directing Othello</div>
+                            <div class="tara-upcoming-event-location">at The Alchemical Theater Lab -tickets-</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tara-upcoming-event-date">Ongoing</div>
+                        <div class="tara-upcoming-event-content">
+                            <div class="tara-upcoming-event-title">I'm in a commercial!</div>
+                            <div class="tara-upcoming-event-location">Bryant and Stratton College</div>
+                        </div>
+                        <div class="tara-upcoming-event-media">
+
+                        </div>
+                    </li>
+                </ul>
+            -->
+            </div>
+
+            <!--About Section-->
+            <div class="tara-about-teaser">
+                <h2 class="tara-about-teaser-title">About</h2>
+                <p class="tara-about-teaser-body">
+                    <!-- This is where my mini headshot picture goes -->
+                </p>
+            </div>
+
+            <!--Media Section-->
+            <div class="tara-media-teaser">
+                <h2 class="tara-media-teaser-title">Media</h2>
+                <p class="tara-media-teaser-body">
+                    <!-- media picture goes here -->
+                </p>
+            </div>
+
+        
+
+            <!--Directing-->
+            <div class="tara-directing-teaser">
+                <h2 class="tara-directing-teaser-title">Directing</h2>
+                <p class="tara-directing-teaser-body">
+                    <!-- media picture goes here -->
+                </p>
+            </div>
+            
+            <!--Contact Me-->
+            <div class="tara-contact-teaser">
+                <h2 class="tara-contact-teaser-title">Media</h2>
+            </div>
+
+
+        </section>
+    </body>
+</html>
