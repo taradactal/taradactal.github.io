@@ -1,7 +1,7 @@
 {
 	"template_dir": "source", 
 	"content_dir": "data",
-	"output_dir": "output",
+	"output_dir": "./",
 
 	"server": { 
 		"port": 8080
