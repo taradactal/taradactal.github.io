@@ -9,9 +9,8 @@
 
 	"bundles": {
 		"/styles/all.css": [
-
-			"/styles/main.css",
-			"/styles/normalize.css"
+			"/styles/normalize.css",
+			"/styles/main.css"
 		]	
 	}
 }
