@@ -1,0 +1,5 @@
+git status -> whats going on with my folder with regards to git?
+
+git add --all -> "stages" everything for commit
+
+git commit -a -m 'message' -> commits everything with a message
