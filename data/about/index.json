@@ -8,5 +8,9 @@
 		"name": "matt",
 		"age": 24
 	}
- ]
+ ],
+
+	"currentPage": {
+		"about": true
+	}
 }

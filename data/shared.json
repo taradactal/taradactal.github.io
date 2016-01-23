@@ -1,0 +1,28 @@
+{
+	"news": [
+		{
+			"title": "TV Commercial",
+			"dateRange": "",
+			"content": "The two spots that I filmed for Bryant & Stratton in April are up on TV!",
+			"videoUrl": "https://www.facebook.com/BSCBayshore/app/349313058487732/",
+			"videoUrlName": "My Video",
+			"imageUrl": ""
+			
+		},
+		{
+			"title": "Interview with Mission to Ditmars",
+			"dateRange": "",
+			"content": "I love getting to support theater in my home hood. And I got to do an <a href='http://missiontoditmars.com/2015/07/09/featured-artist-tara-pacheco/'>interview</a> about it.",
+			"videoUrl": "asdf",
+			"imageUrl": ""
+		},
+		{
+			"title": "Third Thing",
+			"dateRange": "",
+			"content": "always include a third thing in a list.",
+			"videoUrl": "",
+			"imageUrl": ""
+		}
+	]
+}
+

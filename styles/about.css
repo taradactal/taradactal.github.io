@@ -1,0 +1,211 @@
+.about-wrapper{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.about-photo{
+	margin-top: 5%;
+	float:left; 
+	width:350px;
+	height:520px;
+	background-color: orange;
+	background-image: url('/photos/taraheadshot.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    
+}
+
+.tara-bio{
+	margin-top: 5%;
+	float: left;
+	margin-left: 50px;
+	width: 400px;
+	display: inline-block;
+}
+
+
+.paragraph-text{
+	margin-bottom: 20px;
+}
+
+.directing-wrapper{
+	width: 800px;
+	margin: 0 auto;
+
+}
+
+.directing-photo{
+	margin-top: 5%;
+	float: left;
+	height: 230px;
+	width:700px;
+	background-image: url('/photos/directingcoverphoto.png');
+	margin-left: 50px;
+	background-size:110%;
+    background-repeat: no-repeat;
+    background-position:-35px 5px;
+
+}
+
+.paragraph-text a{
+	color:#A52A2A;
+	text-decoration: none
+}
+
+.directing-blurb{
+	float:left;
+	margin-top: 40px;
+	width:700px;
+	margin-left: 50px;
+	text-align: center;
+}
+
+
+
+/* random page */
+
+.random-wrapper{
+	width: 900px;
+	margin: 0 auto;
+}
+.random-column{
+	margin-top: 7%;
+	float: left;
+	display: inline-block;
+}
+
+.random-column-title{
+	color:black;
+    float:left;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.random-column-one{	
+	float: left;
+	height: 1020px;
+	width:315px;
+	
+}
+
+.column-one-sub{
+	float:left;
+	width: inherit;
+}
+
+.column-one-top{
+	height: 400px;
+}
+
+.column-one-bottom{
+	margin-top: 20px;
+	height:600px;
+}
+
+
+.random-column-two{	
+	float: left;
+	margin-left: 105px;
+	height: 700px;
+	width:480px;
+
+}
+
+.column-two-item{
+	float:left;
+	width: 400
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+
+.column-two-item-title{
+	margin-bottom: 10px;
+}
+
+
+/* Media Page*/
+
+.media-wrapper{
+	width: 900px;
+	height: 2000px;
+	margin: 0 auto;
+	
+
+}
+
+.video-scroller{
+	margin-top: 50px;
+	float:left;
+	width: 100%;
+
+}	
+
+.video-list{
+	float: left;
+	width: 100%;
+	height: 200px;
+}	
+
+.video-list-item{
+	float:left;
+	margin: 20px 10px 10px 20px; 
+}
+
+.headshot-scroller{
+	margin-top: 50px;
+	float:left;
+	width: 100%;
+
+
+}
+
+.headshot-list{
+	float: left;
+	width: 100%;
+	height: 200px;
+}
+
+
+.production-scroller{
+	margin-top: 50px;
+	float:left;
+	width: 100%;
+
+	
+}
+
+.production-photo-list{
+	float: left;
+	width: 100%;
+	height: 200px;
+}
+
+.horizontal-photo-list-item{
+	float: left;
+	height: 160px;
+	width:220px;
+	margin: 20px 10px 10px 20px; 
+}
+
+.vertical-photo-list-item{
+	float: left;
+	height: 160px;
+	width:110px;
+	margin: 20px 10px 10px 20px; 
+}
+
+
+
+
+
+
+
+
+
+.page-subheading{
+	color: black;
+	font-size: 1.5em;
+
+}
+

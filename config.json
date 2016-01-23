@@ -7,10 +7,15 @@
 		"port": 8080
 	},
 
+	"plugins": {
+		"template_engine": "punch-engine-handlebars"
+	},
+
 	"bundles": {
 		"/styles/all.css": [
 			"/styles/normalize.css",
-			"/styles/main.css"
+			"/styles/main.css",
+			"/styles/about.css"
 		]	
 	}
 }

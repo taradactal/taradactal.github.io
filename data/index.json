@@ -1,3 +1,5 @@
 {
-	"myFavoriteColors": ["blue", "green"]
+	"currentPage": {
+		"home": true
+	}
 }

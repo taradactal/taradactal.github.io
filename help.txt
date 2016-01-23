@@ -51,5 +51,13 @@ punch g
 				Tara's questions
 ###################################################
 
+links
 
+
+<a href="/about"/> -> goes to /about
+
+
+handling differences between pages
+
+1) here is our templating engine: http://handlebarsjs.com/
 

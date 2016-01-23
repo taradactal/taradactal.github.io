@@ -1,0 +1,90 @@
+{{> header}}
+        <section class="tara-body"> 
+
+           <div class="homepage-column column-one"> 
+                <!--News-->
+                <div class="teaser news-teaser teaser-link">
+                    <h2 class="teaser-title news-teaser-title">News</h2>
+                    <ul class="news-teaser-list">
+                        {{#with news.[0]}}
+                            {{> newsTeaserItem}}
+                        {{/with}}
+                        {{#with news.[1]}}
+                            {{> newsTeaserItem}}
+                        {{/with}}
+                        {{#with news.[2]}}
+                            {{> newsTeaserItem}}
+                        {{/with}}
+                    </ul>
+                </div>
+            </div>    
+
+            <div class="homepage-column column-two">
+                <!--About Section-->
+                <a href="/about">
+                    <div class="teaser about-teaser teaser-link">
+                        <div class="teaser-frost about-frost"></div>
+                        <h2 class="teaser-title about-teaser-title">About</h2>
+                    </div>
+                </a>
+
+                <!--Contact Me-->
+                <a href="/contact">
+                    <div class="teaser contact-teaser teaser-link">
+                        <h2 class="contact-teaser-title teaser-title">Contact Me</h2>
+                    </div>
+                </a>
+            </div>
+
+            <div class="homepage-column column-three">
+                <!--Media Section-->
+                <a href="/media"> 
+                    <div class="teaser media-teaser teaser-link">
+                        <div class="teaser-frost media-frost"></div>
+                        <h2 class="teaser-title">Media</h2>
+                    </div>
+                </a>
+
+                <!--Reps Section-->
+                <div class="teaser reps-teaser">
+                    <h2 class="teaser-title">Reps</h2>
+                    <div class="homepage-rep aboutface-section">
+                        <div class="rep-name">About Face - Carson Kolker</div>
+                        <div class="agent-detail">Alice Skiba 
+                    </div>
+                        <div class="agent-detail">(212) 221-1518 </div>
+                        <div class="agent-detail">aboutfacedivision@gmail.com</div>
+                    </div>
+
+                    <div class="homepage-rep multiethnic-section">
+                        <div class="rep-name">Multi-Ethnic Talent Mgmt.</div>
+                        <div class="agent-detail">Annette Alvarez 
+                    </div>
+                        <div class="agent-detail">(917) 689-8459 </div>
+                        <div class="agent-detail">multiethnictalent@gmail.com</div>
+                    </div>
+
+                </div>
+                
+            </div>
+            <div class="homepage-bar">
+                <!--Directing-->
+                <a href="/directing">
+                    <div class="teaser directing-teaser teaser-link">
+                    <div class="teaser-frost directing-frost"></div>
+                        <h2 class="teaser-title">Directing</h2>
+                    </div>
+                </a>
+            
+                <!--Random-->
+                <a href="/random">
+                    <div class="teaser random-teaser teaser-link">
+                        <div class="teaser-frost random-frost"></div>
+                        <h2 class="teaser-title">Random & Social</h2>
+                    </div>
+                </a>
+
+            </div>
+
+        </section>
+{{> footer}}

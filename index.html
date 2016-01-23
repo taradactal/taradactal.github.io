@@ -7,8 +7,13 @@
         <meta name="description" content="Tara Pacheco's Personal Site">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- GOOGLE FONTS-->
-        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700italic' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+
+        <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,300,700' rel='stylesheet' type='text/css'>
+
+        <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,600' rel='stylesheet' type='text/css'>
+       
         <!-- PUNCH STYLESHEET -->
         <link rel="stylesheet" href="/styles/all.css">
     </head>
@@ -17,42 +22,66 @@
             <div class="tara-header-nav-wrapper">
                 <h1 class="tara-header-title">Tara Pacheco</h1>
                 <ul class="nav">
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/about/">About</a></li>
+                  <li><a href="/" class="current">Home</a></li>
+                  <li><a href="/about/" class="">About</a></li>
                   <li><a href="/contact/">Contact</a></li>
                 </ul>
             </div>
-            <blockquote class="tara-header-quote"><a class="tara-resume" href="#">download </a> headshot and resume</blockquote>
+            <blockquote class="tara-header-quote"><a class="tara-resume" href="#">download</a> headshot and resume</blockquote>
         </header>        <section class="tara-body"> 
 
            <div class="homepage-column column-one"> 
                 <!--News-->
-                <div class="teaser news-teaser">
+                <div class="teaser news-teaser teaser-link">
                     <h2 class="teaser-title news-teaser-title">News</h2>
-                    
+                    <ul class="news-teaser-list">
+                            <li class="news-teaser-item">
+                            	<div class="news-teaser-item-title">TV Commercial</div>
+                            	<div class="news-teaser-detail"></div>
+                            	<div class="news-teaser-detail">The two spots that I filmed for Bryant & Stratton in April are up on TV!</div>
+                            	<div class="news-teaser-detail"></div>
+                            </li>
+                            <li class="news-teaser-item">
+                            	<div class="news-teaser-item-title">Interview with Mission to Ditmars</div>
+                            	<div class="news-teaser-detail"></div>
+                            	<div class="news-teaser-detail">I love getting to support theater in my home hood. And I got to do an <a href='http://missiontoditmars.com/2015/07/09/featured-artist-tara-pacheco/'>interview</a> about it.</div>
+                            	<div class="news-teaser-detail"></div>
+                            </li>
+                            <li class="news-teaser-item">
+                            	<div class="news-teaser-item-title">Third Thing</div>
+                            	<div class="news-teaser-detail"></div>
+                            	<div class="news-teaser-detail">always include a third thing in a list.</div>
+                            	<div class="news-teaser-detail"></div>
+                            </li>
+                    </ul>
                 </div>
             </div>    
 
             <div class="homepage-column column-two">
                 <!--About Section-->
-                <div class="teaser about-teaser">
-                    <div class="teaser-frost"></div>
-                    <h2 class="teaser-title about-teaser-title">About</h2>
-                </div>
+                <a href="/about">
+                    <div class="teaser about-teaser teaser-link">
+                        <div class="teaser-frost about-frost"></div>
+                        <h2 class="teaser-title about-teaser-title">About</h2>
+                    </div>
+                </a>
 
                 <!--Contact Me-->
-                <div class="teaser contact-teaser">
-                    <h2 class="contact-teaser-title teaser-title">Contact Me</h2>
-                </div>
+                <a href="/contact">
+                    <div class="teaser contact-teaser teaser-link">
+                        <h2 class="contact-teaser-title teaser-title">Contact Me</h2>
+                    </div>
+                </a>
             </div>
 
             <div class="homepage-column column-three">
                 <!--Media Section-->
-                <div class="teaser media-teaser">
-                    <div class="teaser-frost"></div>
-                    <h2 class="teaser-title">Media</h2>
-                    
-                </div>
+                <a href="/media"> 
+                    <div class="teaser media-teaser teaser-link">
+                        <div class="teaser-frost media-frost"></div>
+                        <h2 class="teaser-title">Media</h2>
+                    </div>
+                </a>
 
                 <!--Reps Section-->
                 <div class="teaser reps-teaser">
@@ -74,24 +103,46 @@
                     </div>
 
                 </div>
-
                 
             </div>
             <div class="homepage-bar">
                 <!--Directing-->
-                <div class="teaser directing-teaser">
-                <div class="teaser-frost"> </div>
-                    <h2 class="teaser-title">Directing</h2>
-                </div>
+                <a href="/directing">
+                    <div class="teaser directing-teaser teaser-link">
+                    <div class="teaser-frost directing-frost"></div>
+                        <h2 class="teaser-title">Directing</h2>
+                    </div>
+                </a>
             
                 <!--Random-->
-                <div class="teaser random-teaser">
-                    <h2 class="teaser-title">Random & Social</h2>
-    
-                </div>
+                <a href="/random">
+                    <div class="teaser random-teaser teaser-link">
+                        <div class="teaser-frost random-frost"></div>
+                        <h2 class="teaser-title">Random & Social</h2>
+                    </div>
+                </a>
 
             </div>
 
         </section>
+		<footer> 
+			<div class="tara-footer"> 
+				<div class="footer-bar"></div>
+				<div class="footer-section footer-section-one">
+					<div class="copyright">&copy; Tara Pacheco. All Rights Reserved.</div>
+					<div><a class="footer-link"href="/">www.tnpacheco.com  </a> &vert; <a class="footer-link"href="/contact">  Contact Me</a></div>
+				</div>	
+				<div class= "footer-section footer-section-two">
+					<div class="footer-note">hand coded by <span>me!</span></div>
+				</div>	
+				<div class= "footer-section footer-section-three">
+					<a target="_blank" class="twitter-icon" href="https://twitter.com/theTaradactal"></a>	
+					<a target="_blank" class="instagram-icon" href="https://www.instagram.com/thetaradactal/">
+					</a>	
+				</div>	
+				
+			</div>
+		</footer>
+
 	</body>
 </html>

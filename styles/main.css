@@ -11,7 +11,8 @@ a {
 
 body{
     background-color: #F5F0E6;
-    font-family: 'Lobster', cursive;
+    font-family: 'PT Sans', sans-serif;
+    
 }
 
 .full-width {
@@ -44,6 +45,7 @@ body{
     padding: 2% 2% 1% 2%;
     box-sizing: border-box;
     height: 150px;
+
 }
 .tara-header-nav-wrapper {
     margin: 0 auto;
@@ -59,6 +61,8 @@ body{
     font-size: 5em;
     border-bottom: 2px solid rgba(192, 192, 192, 1);
     line-height: 95%;
+    font-family: 'Oleo Script', cursive;
+
 
 }
 .tara-header-quote {
@@ -76,6 +80,7 @@ body{
     margin:0;
     padding:0;
     text-align:center;
+
 }
 .nav li{
     display:inline;
@@ -86,31 +91,37 @@ body{
     text-decoration: none;
     font-size: 1.3em;
 }
+.nav a.current {
+    color: #A52A2A;
+}
 
 .nav a:hover{
-    color:red;
+    color:#A52A2A;
 }
 
 .tara-body {
-    width: 1280px;
+    width: 1080px;
     margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1em;
+    line-height: 120%;
 }
 
 
 .homepage-bar{
-    margin-top: 40px;
-    width: 1300px;
+    margin-top: 30px;
+    width: 1080px;
     clear:left;
     float: left;
 }
 
 
 .homepage-column{
-    width:400px;
+    width:340px;
     float:left;
-    margin-top: 5%;
+    margin-top: 6%;
     height:670px;
-    margin-right: 40px;
+    margin-right: 30px;
 
 }
 .column-three{
@@ -118,7 +129,7 @@ body{
 }
 
 .teaser{
-    width: 400px;
+    width: 340px;
     position: relative;
     float: left;
 }
@@ -132,6 +143,10 @@ body{
     opacity: .3;
 }
 
+.teaser-frost:hover{
+    opacity: 0;
+}
+
 .teaser-title{
     color:white;
     text-align: center;
@@ -143,31 +158,55 @@ body{
     margin-top: -10px;
 }
 
-
+.teaser-title a{
+    text-decoration: none;
+    font-family: 'Oleo Script', cursive;
+}
 
 .news-teaser{
     background-color: brown;
-    height:670px;
+    height:660px;
 }
 
 .news-teaser-title{
     margin-top: -280px;
 }
 
+.news-teaser-list {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 125px 20px 20px 20px;
+}
+.news-teaser-item {
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.news-teaser-item-title {
+    float: left;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.news-teaser-detail {
+    float: left;
+}
+
 
 .media-teaser{
     background-color: black;
-    height:280px;
+    height:250px;
     background-image: url('/photos/bryantandstrattongrab.png');
-    background-size:130%;
+    background-size:140%;
     background-repeat: no-repeat;
-    background-position-y:-5px;
+    background-position-y:-12px;
 }
 
 .reps-teaser{
     background-color: grey;
-    height:350px;
-    margin-top: 40px;
+    height:380px;
+    margin-top: 30px;
 }
 
 .about-teaser {
@@ -175,7 +214,7 @@ body{
     height:500px;
     background-image: url('/photos/taraheadshot.jpg');
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:110%;
     background-position-y: -30px;
 }
 
@@ -187,28 +226,28 @@ body{
 .contact-teaser{
     background-color: orange;
     height: 130px;
-    margin-top: 40px;
-}
-
-.contact-teaser-title{
-    margin-top: -20px;
+    margin-top: 30px;
 }
 
 .directing-teaser{
     background-color: blue;
-    height:240px;
+    height:200px;
     background-image: url('/photos/directingteaser.jpg');
-    background-size: 125%;
-    background-position:-20px -15px;
+    background-size: 110%;
+    background-position:-20px -30px;
     background-repeat: no-repeat;
 
 }
 
 .random-teaser{
     background-color: tan;
-    height:240px;
-    width:840px;
-    margin-left: 40px;
+    height:200px;
+    width:710px;
+    margin-left: 30px;
+    background-image: url('/photos/randomteaser.png');
+    background-size: 110%;
+    background-position:-1px -1px;
+    background-repeat: no-repeat;
 }
 
 .homepage-rep{
@@ -228,7 +267,7 @@ body{
     margin-top: 100px;
     position:absolute;
     bottom:15px;
-    right:0;
+    
 }    
 
 .rep-name{
@@ -242,3 +281,82 @@ body{
 .agent-email{
     font-size:1em;
 }
+
+
+.tara-footer{
+    margin-top: 110px;
+    float:left;
+    margin-left:90px;
+    width: 1080px;
+    font-size: .7em;
+    margin-bottom:50px;
+
+}
+
+.footer-bar{
+    width:1080px;
+    float:left;
+    height: 2px;
+    border-top: 1px solid grey;
+    display: inline;
+}
+
+.footer-section{
+    margin-top: 10px;
+    float:left;
+    width:360px;
+    height: 40px;
+    line-height: 19px;
+    color: #85847F;
+}
+
+.footer-section-one{
+
+}
+
+.footer-section-two{
+    text-align: center;
+}
+
+.footer-section-three{
+    float: left;
+
+}
+
+
+.twitter-icon{
+    display: inline-block;
+    float: right;
+    width: 30px;
+    height:30px;
+    background-image: url('/photos/twitter.png');
+    background-repeat: no-repeat;
+}
+
+.instagram-icon{
+    display: inline-block;
+    float: right;
+    margin-right:20px; 
+    height: 30px;
+    width: 30px;
+    background-image: url('/photos/instagram.png');
+    background-repeat: no-repeat;
+
+ }
+
+.footer-link{
+    text-decoration: none;
+    color:#A52A2A;
+
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+}
+
+.footer span{
+    text-decoration: emphasis;
+    font-style: cursive;
+    font-size: .8em;
+}
+
