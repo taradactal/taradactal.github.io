@@ -11,7 +11,7 @@ a {
 
 body{
     background-color: #F5F0E6;
-    font-family: 'PT Sans', sans-serif;
+
     
 }
 
@@ -61,8 +61,7 @@ body{
     font-size: 5em;
     border-bottom: 2px solid rgba(192, 192, 192, 1);
     line-height: 95%;
-    font-family: 'Oleo Script', cursive;
-
+    font-family: 'Crimson Text', sans-serif;
 
 }
 .tara-header-quote {
@@ -70,9 +69,18 @@ body{
     float: right;
     margin-right: 5%;
     width: 10em;
-    font-size: 1em;
+    font-size: .8em;
     text-align:right;
     line-height: 125%;
+}
+
+.tara-header-quote a{
+    text-decoration: none;
+    color:#A52A2A;
+}
+
+.tara-header-quote a:hover{
+    text-decoration: underline;
 }
 
 .nav{
@@ -139,12 +147,15 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: white;
-    opacity: .3;
+    opacity: .5;
 }
 
 .teaser-frost:hover{
     opacity: 0;
+}
+
+.teaser-link {
+    cursor: pointer;
 }
 
 .teaser-title{
@@ -156,20 +167,21 @@ body{
     left: 0;
     right: 0;
     margin-top: -10px;
-}
-
-.teaser-title a{
+    pointer-events: none;
     text-decoration: none;
-    font-family: 'Oleo Script', cursive;
+    font-family: 'Italiana', serif;
 }
 
 .news-teaser{
-    background-color: brown;
+    background-color: #F3C2A8;
     height:660px;
+    cursor: auto;
 }
 
 .news-teaser-title{
     margin-top: -280px;
+    pointer-events: auto;
+    cursor: pointer;
 }
 
 .news-teaser-list {
@@ -204,7 +216,7 @@ body{
 }
 
 .reps-teaser{
-    background-color: grey;
+    background-color: #46384A;
     height:380px;
     margin-top: 30px;
 }
@@ -224,7 +236,7 @@ body{
 
 
 .contact-teaser{
-    background-color: orange;
+    background-color: #224F91;
     height: 130px;
     margin-top: 30px;
 }
@@ -359,4 +371,26 @@ body{
     font-style: cursive;
     font-size: .8em;
 }
+
+
+/*
+
+.media-frost{
+    background-color: rgba(143,122, 62, .95);
+}
+
+.about-frost{
+    
+    background-color: #023a50;
+}
+
+.directing-frost{
+    background-color: rgba(143,122, 62, .95);
+}
+
+.random-frost{
+    background-color: #023a50;
+}
+
+*/
 

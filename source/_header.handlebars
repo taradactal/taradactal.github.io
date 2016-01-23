@@ -6,12 +6,18 @@
         <title>Tara Pacheco</title>
         <meta name="description" content="Tara Pacheco's Personal Site">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- jquery -->
+        <script src="/scripts/jquery-2.2.0.min.js"></script>
+
+
+        <!-- LIGHTBOX -->
+        <link href="/scripts/lightbox/css/lightbox.css" rel="stylesheet"  type='text/css'>
+
         <!-- GOOGLE FONTS-->
         <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
-
         <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,300,700' rel='stylesheet' type='text/css'>
-
         <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,600' rel='stylesheet' type='text/css'>
        
         <!-- PUNCH STYLESHEET -->
@@ -24,7 +30,7 @@
                 <ul class="nav">
                   <li><a href="/" class="{{#if currentPage.home}}current{{/if}}">Home</a></li>
                   <li><a href="/about/" class="{{#if currentPage.about}}current{{/if}}">About</a></li>
-                  <li><a href="/contact/">Contact</a></li>
+                  <li><a href="/contact/" class="{{#if currentPage.contact}}current{{/if}}">Contact</a></li>
                 </ul>
             </div>
             <blockquote class="tara-header-quote"><a class="tara-resume" href="#">download</a> headshot and resume</blockquote>

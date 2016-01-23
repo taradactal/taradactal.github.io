@@ -23,6 +23,16 @@
 			"videoUrl": "",
 			"imageUrl": ""
 		}
+	],
+	"random": [
+		{
+			"title": "Hollywood Reporter Writers Roundtable",
+			"youtubeLink": "https://www.youtube.com/embed/G-GKiB43iJs"
+		},
+		{
+			"title": "My Favorite video",
+			"youtubeLink": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+		}
 	]
 }
 

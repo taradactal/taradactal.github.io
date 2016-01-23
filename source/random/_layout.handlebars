@@ -21,16 +21,22 @@
 				
 		<div class="random-column random-column-two">
 			<div class="random-column-title">Other Things</div>
-	
+			
+			{{#each random}}
+				<div class="column-two-item">
+					<div class="column-two-item-title">
+						{{title}}
+					</div>
+					<div class="column-two-item-deets">
+						{{#with youtubeLink}}
+							<iframe width="450" height="253"src="{{.}}" frameborder="0" allowfullscreen></iframe>
+						{{/with}}
+					</div>
+				</div>
+			{{/each}}
 
-			<div class="column-two-item">
-				<div class="column-two-item-title">
-					Hollywood Reporter Writers Roundtable
-				</div>
-				<div class="column-two-item-deets">
-					<iframe width="450" height="253"src="https://www.youtube.com/embed/G-GKiB43iJs" frameborder="0" allowfullscreen></iframe>
-				</div>
-			</div>
+
+			
 		</div>		
 	</div>
 

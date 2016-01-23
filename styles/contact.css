@@ -1,0 +1,35 @@
+.thanks {
+	float: left;
+	width: 380px;
+	margin-left: 10px;
+	display: none; /* if you want to style this, remove this line, style it, then put it back*/
+}
+
+form {
+	float: left;
+	margin-left: 10px;
+	width: 300px;
+	margin-top: 12px;
+}
+
+input, textarea {
+	padding: 5px;
+	width: 368px;
+	margin-left: 5px;
+	font-family: Helvetica, sans-serif;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}
+
+.submit-button {
+	width: 382px
+}

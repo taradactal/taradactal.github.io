@@ -175,10 +175,13 @@ body{
 .news-teaser{
     background-color: #F3C2A8;
     height:660px;
+    cursor: auto;
 }
 
 .news-teaser-title{
     margin-top: -280px;
+    pointer-events: auto;
+    cursor: pointer;
 }
 
 .news-teaser-list {

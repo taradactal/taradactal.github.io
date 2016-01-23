@@ -11,7 +11,32 @@
 			<div class="contact-me-photo">
 			</div>
 
-			<div class="contact-me-form"></div>
+			<div>
+				<form id="contact-me-form">
+				    <input type="text" name="name" placeholder="Name"/>
+				    <input type="email" name="_replyto" placeholder="Email"/>
+				    <textarea type="text" name="message" placeholder="Message"></textarea>
+				    <input class="submit-button" type="submit"/>
+				</form>
+				<div class="thanks">
+					Thanks for reaching out!
+				</div>
+			</div>
+			<script>
+				$('#contact-me-form').submit(function(e){
+				    e.preventDefault();
+				    e.stopPropagation();
+				    $.ajax({
+				        url: "//formspree.io/tara.pach+website@gmail.com",
+					    method: "POST",
+					    data: $('#contact-me-form').serialize(),
+					    dataType: "json",
+				        success:function() {
+				        	$('.thanks').slideDown();
+				        }
+				    });
+				});
+			</script>
 
 		</div>
 

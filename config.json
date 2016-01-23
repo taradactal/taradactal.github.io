@@ -15,7 +15,8 @@
 		"/styles/all.css": [
 			"/styles/normalize.css",
 			"/styles/main.css",
-			"/styles/about.css"
+			"/styles/about.css",
+			"/styles/contact.css"
 		]	
 	}
 }

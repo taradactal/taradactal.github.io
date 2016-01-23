@@ -178,11 +178,16 @@
 	height: 200px;
 }
 
-.horizontal-photo-list-item{
+.crop {
 	float: left;
-	height: 160px;
-	width:220px;
 	margin: 20px 10px 10px 20px; 
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+.crop img {
+    height: 150px; /*same as above*/
+    /*margin: -75px 0 0 -100px;*/
 }
 
 .vertical-photo-list-item{
