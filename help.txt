@@ -12,6 +12,8 @@ git push -> pushes your stuff to github. NOTE: sometimes it will 'fail' like if 
 
 git pull -> pulls stuff from github and tries to merge it with your stuff
 
+USE punch g BEFORE PUSHING if you want github pages to notice the changes 100%;
+
 
 
 NOTES:

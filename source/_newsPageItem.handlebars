@@ -1,0 +1,31 @@
+<li class="news-page-item">
+
+	<div class= "news-page-item-heading">
+		<div class="news-page-item-title page-subheading3">{{title}}</div>
+
+		{{#with dateRange}}
+		<div class="news-page-date">{{{.}}}</div>
+		{{/with}}
+
+	</div>	
+
+
+	<div class="news-item-body">
+		{{#with imageUrl}}
+		<div class="news-page-pic-crop">	
+			<img src="{{.}}"/>
+		</div>
+		{{/with}}
+
+		{{#with videoUrl}}
+		<div class="news-page-vid">
+			<iframe class="news-page-vid-link" src="{{.}}" frameborder="0" allowfullscreen></iframe>
+		</div>
+		{{/with}}
+
+		<div class="news-page-detail paragraph-text">{{{contentFull}}}</div>
+	</div>
+	
+</li>
+
+

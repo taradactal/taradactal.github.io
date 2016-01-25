@@ -15,23 +15,28 @@
         <link href="/scripts/lightbox/css/lightbox.css" rel="stylesheet"  type='text/css'>
 
         <!-- GOOGLE FONTS-->
-        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,300,700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,600' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Marcellus+SC' rel='stylesheet' type='text/css'>
+
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
        
         <!-- PUNCH STYLESHEET -->
         <link rel="stylesheet" href="/styles/all.css">
     </head>
+
     <body class="tara-splash">
         <header class="tara-header">
             <div class="tara-header-nav-wrapper">
-                <h1 class="tara-header-title">Tara Pacheco</h1>
+                <h1 class="tara-header-title"><a href="/">Tara Pacheco</a></h1>
                 <ul class="nav">
-                  <li><a href="/" class="{{#if currentPage.home}}current{{/if}}">Home</a></li>
-                  <li><a href="/about/" class="{{#if currentPage.about}}current{{/if}}">About</a></li>
+                  <li><a href="/about" class="{{#if currentPage.about}}current{{/if}}">About</a></li>
+                  <li><a href="/news/" class="{{#if currentPage.news}}current{{/if}}">News</a></li>
+                  <li><a href="/media/" class="{{#if currentPage.media}}current{{/if}}">Media</a></li>
+                  <li><a href="/directing/" class="{{#if currentPage.directing}}current{{/if}}">Directing</a></li>
                   <li><a href="/contact/" class="{{#if currentPage.contact}}current{{/if}}">Contact</a></li>
+                  <li><a href="/random/" class="{{#if currentPage.random}}current{{/if}}">Random</a></li>
+                 
                 </ul>
             </div>
-            <blockquote class="tara-header-quote"><a class="tara-resume" href="#">download</a> headshot and resume</blockquote>
+            <blockquote class="tara-header-quote"><a class="tara-resume" href="#">headshot & resume</a> </blockquote> 
         </header>

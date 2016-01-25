@@ -58,18 +58,27 @@ body{
 .tara-header-title {
     color: #000;
     text-align: center;
-    font-size: 5em;
+    font-size: 4.5em;
     border-bottom: 2px solid rgba(192, 192, 192, 1);
     line-height: 95%;
-    font-family: 'Crimson Text', sans-serif;
+    font-family: 'Marcellus SC', serif;
+    
 
 }
+
+
+.tara-header-title a{
+    text-decoration: none;
+
+}
+
+
 .tara-header-quote {
     color: #000;
     float: right;
     margin-right: 5%;
     width: 10em;
-    font-size: .8em;
+    font-size: .9em;
     text-align:right;
     line-height: 125%;
 }
@@ -94,10 +103,11 @@ body{
     display:inline;
 }
 .nav a{
+    color: #6D6B64;
     display:inline-block;
     padding:10px;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 .nav a.current {
     color: #A52A2A;
@@ -108,11 +118,21 @@ body{
 }
 
 .tara-body {
+    color: #191B1C;
     width: 1080px;
     margin: 0 auto;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     line-height: 120%;
+}
+
+.special-link{
+    color:#A52A2A;
+    text-decoration: none
+}
+
+.special-link:hover{
+    text-decoration: underline;
 }
 
 
@@ -150,6 +170,8 @@ body{
     opacity: .5;
 }
 
+
+
 .teaser-frost:hover{
     opacity: 0;
 }
@@ -160,8 +182,9 @@ body{
 
 .teaser-title{
     color:white;
+    text-shadow: 2px 2px 10px #333536;
     text-align: center;
-    font-size: 2.6em;
+    font-size: 2.4em;
     position: absolute;
     top: 50%;
     left: 0;
@@ -169,13 +192,14 @@ body{
     margin-top: -10px;
     pointer-events: none;
     text-decoration: none;
-    font-family: 'Italiana', serif;
+    
 }
 
 .news-teaser{
-    background-color: #F3C2A8;
+    background-color: rgba(195, 172, 147, 0.2);
     height:660px;
     cursor: auto;
+
 }
 
 .news-teaser-title{
@@ -190,24 +214,54 @@ body{
     box-sizing: border-box;
     padding: 125px 20px 20px 20px;
 }
+.news-teaser-divider{
+    float:left;
+    border-top: 1px solid #876A4C;
+    width: 300px;
+    height: 2px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
 .news-teaser-item {
     float: left;
     width: 100%;
-    margin-bottom: 40px;
+
 }
+
 .news-teaser-item-title {
     float: left;
-    font-size: 1.1em;
-    margin-bottom: 5px;
-    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
+
+.page-subheading3{
+    float:left;
+    font-size: 1.2em;
+    color:#000;
+    text-align: left;
+    line-height: 40px;
+
+}
+
 .news-teaser-detail {
     float: left;
+    font-size: .9em;
+}
+
+.news-teaser-date{
+    font-weight: bold;
+}
+
+.news-teaser-link-to-more {
+    float: right;
+    margin-top: 72px;
+    font-size: .9em;
+    padding-right: 20px;
 }
 
 
 .media-teaser{
-    background-color: black;
     height:250px;
     background-image: url('/photos/bryantandstrattongrab.png');
     background-size:140%;
@@ -216,18 +270,19 @@ body{
 }
 
 .reps-teaser{
-    background-color: #46384A;
+    background-color: rgba(195, 172, 147, 0.2);
     height:380px;
     margin-top: 30px;
+
 }
 
 .about-teaser {
-    background-color: green;
     height:500px;
     background-image: url('/photos/taraheadshot.jpg');
     background-repeat: no-repeat;
     background-size:110%;
     background-position-y: -30px;
+
 }
 
 .about-teaser-title{
@@ -236,13 +291,12 @@ body{
 
 
 .contact-teaser{
-    background-color: #224F91;
+    background-color: #7B4242;
     height: 130px;
     margin-top: 30px;
 }
 
 .directing-teaser{
-    background-color: blue;
     height:200px;
     background-image: url('/photos/directingteaser.jpg');
     background-size: 110%;
@@ -252,7 +306,6 @@ body{
 }
 
 .random-teaser{
-    background-color: tan;
     height:200px;
     width:710px;
     margin-left: 30px;
@@ -282,32 +335,47 @@ body{
     
 }    
 
+
+/*
+
 .rep-name{
-    /*bolder font family when fonts are loaded*/
-    font-size: 1.5em;
-    color:white;
+    font-size: 1.2em;
+    color:#000;
     text-align: left;
     line-height: 40px;
 }
+*/
+
+
 
 .agent-email{
     font-size:1em;
 }
 
+.agent-detail{
+    float: left;
+    width:300px;
+
+}
+
 
 .tara-footer{
-    margin-top: 110px;
-    float:left;
-    margin-left:90px;
+    margin:0 auto;
     width: 1080px;
     font-size: .7em;
-    margin-bottom:50px;
+    margin-bottom:60px;
 
+}
+
+.black-teaser-title{
+    color: #000;
+    text-shadow: none;
 }
 
 .footer-bar{
     width:1080px;
     float:left;
+    margin-top: 80px;
     height: 2px;
     border-top: 1px solid grey;
     display: inline;
@@ -320,6 +388,8 @@ body{
     height: 40px;
     line-height: 19px;
     color: #85847F;
+    margin-bottom: 70px;
+
 }
 
 .footer-section-one{
@@ -332,6 +402,7 @@ body{
 
 .footer-section-three{
     float: left;
+
 
 }
 
@@ -356,41 +427,30 @@ body{
 
  }
 
-.footer-link{
-    text-decoration: none;
-    color:#A52A2A;
 
+.footer-note span{
+    font-style: italic;
+    font-size: 1em;
 }
 
-.footer-link:hover{
-    text-decoration: underline;
-}
-
-.footer span{
-    text-decoration: emphasis;
-    font-style: cursive;
-    font-size: .8em;
-}
-
-
-/*
 
 .media-frost{
-    background-color: rgba(143,122, 62, .95);
+    background-color: rgba(178, 125, 49, 0.46);
 }
 
 .about-frost{
     
-    background-color: #023a50;
+    background-color: rgba(100, 75, 39, 0.46);
 }
 
 .directing-frost{
-    background-color: rgba(143,122, 62, .95);
+    background-color: rgba(178, 125, 49, 0.46);
 }
+
 
 .random-frost{
-    background-color: #023a50;
+    background-color:rgba(178, 125, 49, 0.65)
 }
 
-*/
+
 

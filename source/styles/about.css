@@ -4,7 +4,7 @@
 }
 
 .about-photo{
-	margin-top: 5%;
+	margin-top: 7%;
 	float:left; 
 	width:350px;
 	height:520px;
@@ -16,16 +16,35 @@
 }
 
 .tara-bio{
-	margin-top: 5%;
+	margin-top: 7%;
 	float: left;
 	margin-left: 50px;
 	width: 400px;
 	display: inline-block;
 }
 
+.about-text-box{
+    float: left;
+    height: 60px;
+    width: 170px;
+    display: inline-block;
+    size: 1em;
+    margin-top: 10px;
+    margin-right: 20px;
+    text-align: center;
+
+}
+.about-text-box-wrapper{
+	margin: 0 auto;
+	width: 400px;
+}
+
+
+/* Directing Page*/
 
 .paragraph-text{
 	margin-bottom: 20px;
+	line-height: 25px;
 }
 
 .directing-wrapper{
@@ -35,7 +54,7 @@
 }
 
 .directing-photo{
-	margin-top: 5%;
+	margin-top: 7%;
 	float: left;
 	height: 230px;
 	width:700px;
@@ -47,17 +66,12 @@
 
 }
 
-.paragraph-text a{
-	color:#A52A2A;
-	text-decoration: none
-}
+
 
 .directing-blurb{
 	float:left;
 	margin-top: 40px;
-	width:700px;
-	margin-left: 50px;
-	text-align: center;
+	width:800px;
 }
 
 
@@ -126,8 +140,7 @@
 /* Media Page*/
 
 .media-wrapper{
-	width: 900px;
-	height: 2000px;
+	width: 950px;
 	margin: 0 auto;
 	
 
@@ -143,7 +156,6 @@
 .video-list{
 	float: left;
 	width: 100%;
-	height: 200px;
 }	
 
 .video-list-item{
@@ -160,7 +172,6 @@
 .headshot-list{
 	float: left;
 	width: 100%;
-	height: 200px;
 }
 
 
@@ -169,13 +180,11 @@
 	float:left;
 	width: 100%;
 
-	
 }
 
 .production-photo-list{
 	float: left;
 	width: 100%;
-	height: 200px;
 }
 
 .crop {
@@ -186,15 +195,20 @@
     overflow: hidden;
 }
 .crop img {
-    height: 150px; /*same as above*/
+    height: 150px;
+     /*same as above*/
     /*margin: -75px 0 0 -100px;*/
 }
 
-.vertical-photo-list-item{
+.crop .verticle{
+	height:auto;
+	width:202.2px;
+}
+
+.vertical-headshot-list-item{
 	float: left;
-	height: 160px;
-	width:110px;
-	margin: 20px 10px 10px 20px; 
+	height: 250px;
+	margin: 20px 25px 10px 20px; 
 }
 
 
@@ -206,56 +220,51 @@
 
 
 
-
 /*Contact Me*/
 
 .contact-me-wrapper{
-	width: 900px;
+	width: 935px;
 	margin: 0 auto;
-	background-color: green;
 }
 
 .contact-me-box{
 	float:left;
-	margin-left: 150px;
-	margin-right: 150px;
-	width:600px;
-	text-align: inline-block;
-	border: 1px solid;
+	width:550px;
+	display: inline-block;
+
 }
 
 .contact-me-photo{
 	float: left;
 	height:300px;
-	width:200px;
+	width:190px;
 	background-image: url('/photos/taracontact.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position: 0px -20px;
+	background-position: 2px -100px;
 }
 
 .contact-my-reps-box{
 	float: left;
-	margin-top: 100px;
-	width:100%;
+	display: inline-block;
+	margin-left: 40px;
 
 }
 
 .contact-rep{
 	width:300px;
-	height:200px;
+	height:160px;
 	float: left;
-	display: inline-block;
 	box-sizing: border-box;
 	border:1px solid;
 }
 
 .contact-multi-ethnic{
-	margin-left: 150px;
+	clear: left;
 }
 
 .contact-about-face{
-	margin-left: 75px;
+	margin-bottom: 30px;
 }
 
 .rep-type-title{
@@ -263,15 +272,17 @@
 	display: block;
 	box-sizing: border-box;
 	padding: 10px;
-	font-size: 1.5em;
-	line-height: 30px;
+	font-size: 1.2em;
+	line-height: 22px;
 	border-right: 1px solid;
-
+	text-align: center;
+	background-color:rgba(123, 66, 66, 0.29);
+	height:159px;
 }
 
 .manager-title{
-	font-size: 1.3em;
-	line-height: 25px;
+	font-size: 1.1em;
+	line-height: 21px;
 }
 
 .contact-rep-details{
@@ -304,13 +315,108 @@
 
 .contact-section-title{
 	margin-bottom: 30px;
+	display: inline-block;
+}
+
+.contact-section-title-me{
+	float:left;
+	width:500px;
+}
+
+.contact-section-title-reps{
+	float:left;
+	width:300px;
+	margin-left: 85px;
 }
 
 .contact-me-title-wrapper{
 	float: left;
 	width: 100%;
-	margin-top: 60px;
+	margin-top: 40px;
+
 }
+
+
+/* NEWS PAGE */
+
+
+.news-page-wrapper{
+	width: 950px;
+	margin:0 auto;
+}
+
+.news-page-item{
+	float:left;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px 10px 10px 10px;
+	margin-top: 45px;
+	background-color:rgba(195, 172, 147, 0.2);
+
+}
+
+.news-page-date{
+	color:#85847f;
+	font-weight: bold;
+	display: inline-block;
+	line-height: 40px;
+	margin-left: 20px;
+}
+
+.news-page-item-heading{
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+
+}
+
+
+.news-page-item-body{
+	float: left;
+	width: 100%;
+	margin-top:40px;
+}
+
+.news-page-pic-crop{
+	clear: left;
+	float:left;
+	width: 300px;
+	margin-top: 5px;
+	margin-right: 80px;
+	overflow: hidden;
+}
+
+.news-page-pic-crop img{
+	width: 300px; 
+
+}
+
+.news-page-vid{
+	clear: left;
+	float: left;
+	margin-right: 80px;
+}
+
+.news-page-vid-link{
+	height: 200px;
+}
+
+.news-page-detail{
+	float:left;
+	display: inline-block;
+	width: 500px;
+   
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

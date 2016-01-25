@@ -3,27 +3,96 @@
 		{
 			"title": "TV Commercial",
 			"dateRange": "",
-			"content": "The two spots that I filmed for Bryant & Stratton in April are up on TV!",
-			"videoUrl": "https://www.facebook.com/BSCBayshore/app/349313058487732/",
-			"videoUrlName": "My Video",
+			"contentTeaser": "The two spots that I filmed for Bryant & Stratton College in April are up on TV! <br><a class='special-link' href='/media'>Check them out!</a>",
+			"contentFull": "The two spots that I filmed for Bryant & Stratton College in April are up on TV! Crazy experience shooting in Budapest. <br><br> Here is the :15 version. <br>For the :30 spot, check out my <a class='special-link' href'/media'> media page.</a>",
+			"videoUrl": "https://www.youtube.com/embed/uxOzK2CGYQo",
 			"imageUrl": ""
 			
 		},
 		{
 			"title": "Interview with Mission to Ditmars",
 			"dateRange": "",
-			"content": "I love getting to support theater in my home hood. And I got to do an <a href='http://missiontoditmars.com/2015/07/09/featured-artist-tara-pacheco/'>interview</a> about it.",
-			"videoUrl": "asdf",
-			"imageUrl": ""
+			"contentTeaser": "Here's to supporting theater in my home borough! Check out my  <a class='special-link' href='http://missiontoditmars.com/2015/07/09/featured-artist-tara-pacheco/'>Featured Artist</a> bit with Mission to Ditmars.",
+			"contentFull": "Here's to supporting theater in my home borough! <br>Check out my  <a class='special-link' href='http://missiontoditmars.com/2015/07/09/featured-artist-tara-pacheco/'>Featured Artist</a> bit with Mission to Ditmars.",
+			"imageUrl": "/photos/newsimages/missiontoditmars.png"
 		},
+
+
 		{
-			"title": "Third Thing",
-			"dateRange": "",
-			"content": "always include a third thing in a list.",
+			"title": "Assistant Directing Othello",
+			"dateRange": "November 12th - 22nd ",
+			"contentTeaser": "Teaming up with the <a class='special-link' href='http://thebrewingdept.org/'>The Brewing Department</a> to stage this classic through a new lens.",
+			"contentFull": "In this breathless new production,<a class='special-link' href='http://thebrewingdept.org/'>The Brewing Department</a> imagines Shakespeare's classic tragedy as an intimate, visceral thriller. We drawcharacters and audience alike into a world of paranoia, lies, and deceit, as we realize too late the tragic consequences of treating the people we love as things we own. <br> <a class='special-link' href='https://www.artful.ly/store/events/7489'>Tickets & Info'</a>",
 			"videoUrl": "",
-			"imageUrl": ""
+			"imageUrl": "/photos/newsimages/othello.png"
+		},
+
+		{
+			"title": "Kapow-i Gogo at the PIT",
+			"dateRange": "February 16th - EXTENDED through October 2015",
+			"contentTeaser": " Her name is Kapow-i GoGo. And she’s going to save The World! Check out the awesome show I'm in at the PIT. <a class='special-link' href='www.kapowigogo.com'>Check out our site</a>",
+			"contentFull": " Her name is Kapow-i GoGo. And she’s going to save The World. Again. And again. And again. Matt Cox’s Kapow-i GoGo is an epic, three-part, live-action mash up of Dragon Ball Z, graphic novels, space operas, the Final Fantasy series, and every after-school cartoon you watched in the mid-to-late ’90s.<br> …with cooler hair. <br> …and more robotic appendages. <br> <a class='special-link' href='www.kapowigogo.com'>Check out our site</a>",
+			"videoUrl": "",
+			"imageUrl": "/photos/newsimages/kapowi.jpg"
+		},
+
+		{
+			"title": "Ars Nova - 2015 ANT Fest",
+			"dateRange": "June 11th 2015",
+			"contentTeaser": "Performing in Ars Nova's 2015 ANT Fest! It's a crazy play about an olympic curling team. Yea. You read that right.<br> <a class='special-link' href='http://arsnovanyc.com/antfest/shows/stacking-the-brooms'>Ticket & Info</a>",
+			"contentFull": "Where do a nutritionist, cannabis critic, ski patroller, and musician come together to create an Olympic team? In a Gay Adventure in Curling! Where music delves into mystical realms inspired by Icelandic folklore and Colorado landscapes. <br> <a class='special-link' href='http://arsnovanyc.com/antfest/shows/stacking-the-brooms'>Ticket & Info</a>",
+			"videoUrl": "",
+			"imageUrl": "/photos/newsimages/antfest.png"
+		},
+
+
+
+		{
+			"title": "The Miser",
+			"dateRange": "January 6th - January 21st",
+			"contentTeaser": " Performing in The Miser at The Grand Prospect Hall. Definitely a dream come true.",
+			"contentFull": " Directed by: Alice Reagan<br> Produced by: Brave New World Rep<br> Performance Dates: 1/6, 1/7, 1/13, 1/14, 1/20, 1/21<br><br> The Miser is Moliere’s darkest comedy: a grim fable for our times containing some of the most absurd and delightful classical, comedic dialogue ever written. The play is a harsh indictment wrapped in pastel-colored candy coating. <br><a class='special-link'href='http://bravenewworldrep.org/current-season/'>Tickets & Info</a> <br>",
+			"videoUrl": "",
+			"imageUrl": "/photos/newsimages/themiser.png"
+		},
+
+		{	
+			"title": "Measure for Measure",
+			"dateRange": "September - November 2014",
+			"contentTeaser": "An 8 actor adaptation of Shakespeare? Yes please! <br>Runs: October 29th – November 9th <br> <a class='special-link' href='http://www.underlingproductions.com/#!productions/c65q'>tickets & info </a> # MeasureUP",
+			"contentFull": "Directed by: Julia Sears <br> Produced by: Underling Productions <br>Runs: October 29th – November 9th <br><br> An 8 actor adaptation of Shakespeare? Yes please! A dark comedy about repression, religion, violence, justice, and sex. Who says modern audiences don’t get Shakespeare? And keep and eye out for our social media trail with #MeasureUP <br><a class='special-link' href ='http://www.underlingproductions.com/#!productions/c65q'>Tickets & Info </a>",
+			"imageUrl": "/photos/newsimages/measureformeasure.jpg"
+		},
+
+		{	
+			"title": "High Maintenance",
+			"dateRange": "October, 2014",
+			"contentTeaser": "Got to work with truely bad-ass couple Katja Blichfeld & Ben Sinclair as an extra on the set of their new season. <br>See if you can catch a glips of me in episode 3 'Genghis'",
+			"contentFull": "Got to work with truely bad-ass couple Katja Blichfeld & Ben Sinclair as an extra on the set of their new season. <br>See if you can catch a glips of me in episode 3 'Genghis'",
+			"imageUrl": "/photos/newsimages/highmaintenance.png"
+		},
+
+		{	
+			"title": "Interview with Theater in the Now",
+			"dateRange": "April 30th, 2014",
+			"contentTeaser": "Theater blog, Theater in the Now is doing a series of posts featureing out wonderful Mysteries cast. Playing on our biblical theme, this is <a href='http://www.theaterinthenow.com/2014/04/the-gospel-according-totara-pacheco.html'>The Gospel According to Tara'</a>",
+			"contentFull": "Theater blog, Theater in the Now is doing a series of posts featureing out wonderful Mysteries cast. Playing on our biblical theme, this is <a class='special-link' href='http://www.theaterinthenow.com/2014/04/the-gospel-according-totara-pacheco.html'>The Gospel According to Tara</a>",
+			"imageUrl": "/photos/newsimages/theaterinthenow.png"
+		},
+
+
+		{
+			"title": "The Mysteries",
+			"dateRange": "January 20th - May 25th  |  Now Extended throught July 14th",
+			"contentTeaser": "My first show as a Bat at the Flea Theater! 5 1/2 hours, 50 playwrights, 4 roles!",
+			"contentFull": "50 mondern playwrights adapt the York Mysteries Cycle for an epic 5+ hour performance at The Flea Theater. <br>Directed by the fearless and amazing Ed Sylvanus Iskander.  <br> <a class='special-link' href='http://www.theflea.org/show_detail.php?page_type=0&show_id=146'>Tickets & Info</a>",
+			"videoUrl": "https://www.youtube.com/embed/ORprabdQank"
 		}
+
 	],
+
+
+
 	"random": [
 		{
 			"title": "Hollywood Reporter Writers Roundtable",

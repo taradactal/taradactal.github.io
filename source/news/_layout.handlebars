@@ -11,8 +11,13 @@
 
 <div class="tara-body"> 
 
-	<div class="about-wrapper">
-		<h1>NEWS YO</h1>
+	<div class="news-page-wrapper">
+		
+		<ul class="news-page-list">
+			{{#each news}}
+				{{> newsPageItem}}  
+			{{/each}}
+		</ul>
 	</div>
 
 </div>
