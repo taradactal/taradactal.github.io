@@ -9,16 +9,17 @@ form {
 	float: left;
 	margin-left: 10px;
 	width: 300px;
-	margin-top: 12px;
+	
 }
 
 input, textarea {
 	padding: 5px;
-	width: 368px;
+	width: 320px;
 	margin-left: 5px;
 	font-family: Helvetica, sans-serif;
 	margin: 0px 0px 10px 0px;
-	border: 2px solid #ccc;
+	border: 1px solid #85847f;
+	background-color: #f5f0e6;
 }
 
 label {
@@ -31,5 +32,10 @@ label {
 }
 
 .submit-button {
-	width: 382px
+	width: 110px
+}
+
+
+.text-area-message{
+	height:140px;
 }

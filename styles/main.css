@@ -76,7 +76,7 @@ body{
 .tara-header-quote {
     color: #000;
     float: right;
-    margin-right: 5%;
+    margin-right: 10%;
     width: 10em;
     font-size: .9em;
     text-align:right;
@@ -103,10 +103,11 @@ body{
     display:inline;
 }
 .nav a{
+    color: #6D6B64;
     display:inline-block;
     padding:10px;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 .nav a.current {
     color: #A52A2A;
@@ -195,7 +196,7 @@ body{
 }
 
 .news-teaser{
-    background-color: #C3AC93;
+    background-color: rgba(195, 172, 147, 0.2);
     height:660px;
     cursor: auto;
 
@@ -248,6 +249,17 @@ body{
     font-size: .9em;
 }
 
+.news-teaser-date{
+    font-weight: bold;
+}
+
+.news-teaser-link-to-more {
+    float: right;
+    margin-top: 72px;
+    font-size: .9em;
+    padding-right: 20px;
+}
+
 
 .media-teaser{
     height:250px;
@@ -258,7 +270,7 @@ body{
 }
 
 .reps-teaser{
-    background-color: #758A96;
+    background-color: rgba(195, 172, 147, 0.2);
     height:380px;
     margin-top: 30px;
 
@@ -353,7 +365,11 @@ body{
     font-size: .7em;
     margin-bottom:60px;
 
+}
 
+.black-teaser-title{
+    color: #000;
+    text-shadow: none;
 }
 
 .footer-bar{

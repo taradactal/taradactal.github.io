@@ -24,23 +24,23 @@
 			
 			{{#each random}}
 				<div class="column-two-item">
-					<div class="column-two-item-title">
-						{{title}}
-					</div>
-					<div class="column-two-item-deets">
-						{{#with youtubeLink}}
+					<div class="column-two-item-title">{{title}}</div>
+					<div class="column-two-item-deets">{{{contentFull}}}
+					{{#with youtubeLink}}
+						<div class="column-two-item-deets">
 							<iframe width="450" height="253"src="{{.}}" frameborder="0" allowfullscreen></iframe>
-						{{/with}}
-					</div>
+						</div>
+					{{/with}}
+					{{#each imageUrls}}
+						<div class="column-two-item-deets column-two-pic-crop">
+							<img src="{{.}}"/>
+						</div>
+					{{/each}}	
 				</div>
 			{{/each}}
-
-
-			
-		</div>		
+		</div>
 	</div>
-
-</div>
+</div>	
 
 
 

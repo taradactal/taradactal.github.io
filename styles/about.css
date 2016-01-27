@@ -23,6 +23,26 @@
 	display: inline-block;
 }
 
+.about-text-box{
+    float: left;
+    height: 60px;
+    width: 120px;
+    display: inline-block;
+    size: 1em;
+    margin-top: 10px;
+    
+}
+
+.about-text-right{
+	width: 270px;
+}
+.about-text-box-wrapper{
+	margin: 0 auto;
+	width: 400px;
+}
+
+
+/* Directing Page*/
 
 .paragraph-text{
 	margin-bottom: 20px;
@@ -53,9 +73,7 @@
 .directing-blurb{
 	float:left;
 	margin-top: 40px;
-	width:700px;
-	margin-left: 50px;
-	text-align: center;
+	width:800px;
 }
 
 
@@ -83,7 +101,8 @@
 	float: left;
 	height: 1020px;
 	width:315px;
-	
+	border-right: 1px solid gray;
+    padding-right: 50px;
 }
 
 .column-one-sub{
@@ -103,7 +122,7 @@
 
 .random-column-two{	
 	float: left;
-	margin-left: 105px;
+	margin-left: 48px;
 	height: 700px;
 	width:480px;
 
@@ -111,16 +130,31 @@
 
 .column-two-item{
 	float:left;
-	width: 400
+	width: 400px;
 	box-sizing: border-box;
 	padding-top: 10px;
 }
 
+.column-two-pic-crop{
+	float: left;
+	margin: 20px 10px 10px 20px; 
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+}
+.column-two-pic-crop img {
+    height: 250px;
+   
+}
+
 .column-two-item-title{
+	font-weight: bold;
 	margin-bottom: 10px;
 }
 
-
+.column-two-item-deets{
+	font-size: .9em;
+}
 /* Media Page*/
 
 .media-wrapper{
@@ -207,52 +241,48 @@
 /*Contact Me*/
 
 .contact-me-wrapper{
-	width: 900px;
+	width: 935px;
 	margin: 0 auto;
-	background-color: green;
 }
 
 .contact-me-box{
 	float:left;
-	margin-left: 100px;
-	margin-right: 150px;
-	width:700px;
-	text-align: inline-block;
-	border: 1px solid;
+	width:550px;
+	display: inline-block;
+
 }
 
 .contact-me-photo{
 	float: left;
 	height:300px;
-	width:300px;
-	background-image: url('/photos/babytara.jpg');
-	background-size: 110%;
+	width:190px;
+	background-image: url('/photos/taracontact.png');
+	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position: ;
+	background-position: 2px -100px;
 }
 
 .contact-my-reps-box{
 	float: left;
-	margin-top: 100px;
-	width:100%;
+	display: inline-block;
+	margin-left: 40px;
 
 }
 
 .contact-rep{
 	width:300px;
-	height:200px;
+	height:160px;
 	float: left;
-	display: inline-block;
 	box-sizing: border-box;
 	border:1px solid;
 }
 
 .contact-multi-ethnic{
-	margin-left: 150px;
+	clear: left;
 }
 
 .contact-about-face{
-	margin-left: 75px;
+	margin-bottom: 30px;
 }
 
 .rep-type-title{
@@ -260,16 +290,17 @@
 	display: block;
 	box-sizing: border-box;
 	padding: 10px;
-	font-size: 1.5em;
-	line-height: 30px;
+	font-size: 1.2em;
+	line-height: 22px;
 	border-right: 1px solid;
 	text-align: center;
-
+	background-color:rgba(123, 66, 66, 0.29);
+	height:159px;
 }
 
 .manager-title{
-	font-size: 1.3em;
-	line-height: 25px;
+	font-size: 1.1em;
+	line-height: 21px;
 }
 
 .contact-rep-details{
@@ -301,16 +332,46 @@
 }
 
 .contact-section-title{
-	margin-bottom: 50px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+
+.contact-section-title-me{
+	float:left;
+	width:500px;
+}
+
+.contact-section-title-reps{
+	float:left;
+	width:300px;
+	margin-left: 85px;
 }
 
 .contact-me-title-wrapper{
 	float: left;
 	width: 100%;
-	margin-top: 60px;
+	margin-top: 40px;
+
 }
 
+/* Resume */
 
+.resume-wrapper{
+	width: 695px;
+	margin: 0 auto;
+}
+
+.download-link{
+	float: left;
+	margin-top: 20px;
+}
+
+.resume-jpg{
+	margin-top: 15px;
+	float: left;
+	height:900px;
+
+}
 
 /* NEWS PAGE */
 
@@ -323,39 +384,46 @@
 .news-page-item{
 	float:left;
 	width: 100%;
-	background-color: green;
 	box-sizing: border-box;
-	padding: 20px;
-	margin-bottom: 50px;
+	padding: 5px 10px 10px 10px;
+	margin-top: 45px;
+	background-color:rgba(195, 172, 147, 0.2);
 
 }
 
 .news-page-date{
-	float:left;
-	clear: left;
-	width:100%;
-	margin-top: 10px;
-	color:red;
+	color:#85847f;
 	font-weight: bold;
+	display: inline-block;
+	line-height: 40px;
+	margin-left: 20px;
 }
+
+.news-page-item-heading{
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+
+}
+
 
 .news-page-item-body{
 	float: left;
 	width: 100%;
-	margin-top:60px;
+	margin-top:40px;
 }
 
 .news-page-pic-crop{
 	clear: left;
 	float:left;
-	width: 250px;
-	height: 150px;
-	background-color: orange;
+	width: 300px;
+	margin-top: 5px;
 	margin-right: 80px;
 	overflow: hidden;
 }
+
 .news-page-pic-crop img{
-	height:150px; 
+	width: 300px; 
 
 }
 
@@ -363,6 +431,10 @@
 	clear: left;
 	float: left;
 	margin-right: 80px;
+}
+
+.news-page-vid-link{
+	height: 200px;
 }
 
 .news-page-detail{
