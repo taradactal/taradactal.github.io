@@ -98,15 +98,16 @@
 			"title": "Hollywood Reporter Writers Roundtable",
 			"youtubeLink": "https://www.youtube.com/embed/G-GKiB43iJs"
 		},
-		{
-			"title": "My Favorite video",
-			"youtubeLink": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-		},
 
 		{
 			"title": "Kapow-i GoGo Fan Art! ",
 			"contentFull": "We've got some seriously awesome fans of this show. Thanks <a class='special-link' href='https://twitter.com/TBBackus?lang=en'>@TBBackus</a> and @edbles!",
 			"imageUrls": ["/photos/kapowiFanArt1.png", "/photos/kapowiFanArt2.png"]
+		},
+
+			{
+			"title": "My Favorite video",
+			"youtubeLink": "https://www.youtube.com/embed/dQw4w9WgXcQ"
 		}
 	]
 }
