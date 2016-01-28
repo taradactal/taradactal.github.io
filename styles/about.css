@@ -1,52 +1,67 @@
 .about-wrapper{
-	width: 800px;
+	width: 850px;
 	margin: 0 auto;
 }
 
 .about-photo{
-	margin-top: 7%;
+	margin-top: 30px;
 	float:left; 
-	width:350px;
-	height:520px;
+	width:375px;
+	height:557px;
 	background-image: url('/photos/taraheadshot.jpg');
     background-size:100%;
     background-repeat: no-repeat;
     display: inline-block;
-    
+    position:relative;
 }
 
+.headshot-davidnoles {
+    position: absolute;
+    top: 530px;
+    left: 20px;
+    right: 0;
+    bottom: 0;
+   	font-size: .7em;
+   	
+ }   
+
 .tara-bio{
-	margin-top: 7%;
+	margin-top: 30px;
 	float: left;
 	margin-left: 50px;
-	width: 400px;
+	width: 425px;
 	display: inline-block;
 }
 
-.about-text-box{
+.about-text{
+    font-size: .9em;
+} 
+    
+
+.about-text-box-wrapper{
+	margin: 0 auto;
+	width: 400px;
+}
+
+.about-text-box {
     float: left;
     height: 60px;
     width: 120px;
     display: inline-block;
     size: 1em;
     margin-top: 10px;
-    
 }
 
 .about-text-right{
 	width: 270px;
 }
-.about-text-box-wrapper{
-	margin: 0 auto;
-	width: 400px;
-}
-
 
 /* Directing Page*/
 
 .paragraph-text{
 	margin-bottom: 20px;
 	line-height: 25px;
+	font-size: .9em;
 }
 
 .directing-wrapper{
@@ -56,12 +71,12 @@
 }
 
 .directing-photo{
-	margin-top: 7%;
+	margin-top: 30px;
 	float: left;
-	height: 230px;
-	width:700px;
+	height: 200px;
+	width:600px;
 	background-image: url('/photos/directingcoverphoto.png');
-	margin-left: 50px;
+	margin-left: 100px;
 	background-size:110%;
     background-repeat: no-repeat;
     background-position:-35px 5px;
@@ -294,7 +309,7 @@
 	line-height: 22px;
 	border-right: 1px solid;
 	text-align: center;
-	background-color:rgba(123, 66, 66, 0.29);
+	background-color: rgba(195,172,147,0.2);
 	height:159px;
 }
 
