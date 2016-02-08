@@ -43,78 +43,87 @@
 <div class="tara-body"> 
 
 	<div class="contact-me-wrapper">
-		<div class="contact-me-title-wrapper">
-			<div class="contact-section-title contact-section-title-me page-subheading">
-			Contact Me</div>
 
-			<div class="contact-section-title contact-section-title-reps page-subheading">
-			Contact My Reps</div>
+		<div class="contact-column contact-column-one">
+			<div class="page-subheading contact-column-title">Contact My Reps
+			</div>	
+			<div class="contact-my-reps-box">	
 
+
+				<div class="contact-rep contact-about-face">	
+					<div class="rep-type-title">A<br>G<br>E<br>N<br>C<br>Y</div>
+
+					<div class="contact-rep-details">
+						<div class="agency-name">About Face Division</div>
+						<div class="agent-name">Alice Skiba</div>
+						<div class="agency-details">(212) 221-1518</div>
+						<a class="special-link" "agency-details" href="mailto:aboutfacedivision@gmail.com">aboutfacedivision@gmail.com</a>
+					</div>
+				</div>
+
+
+				<div class="contact-rep contact-multi-ethnic">
+					<div class="rep-type-title manager-title">M<br>A<br>N<br>A<br>G<br>E<br>R</div>
+
+					<div class="contact-rep-details">
+						
+						<div class="agency-name">Multi-Ethnic Talent</div>
+						<div class="agent-name">Annette Alvarez</div>
+						<div class="agency-details">(917) 689-8459 </div>
+						<a class="special-link" "agency-details" href="mailto:multiethnictalent@gmail.com">multiethnictalent@gmail.com</a>
+						
+					</div>
+			</div>
+
+
+	</div>
+
+		</div>	
+
+		<div class="contact-column contact-column-two">
+			<div class="page-subheading contact-column-title">Contact Me
+			</div>	
+
+
+			<div class="contact-me-box">
+				<div class="contact-me-photo">
+				</div>
+
+				<div>
+					<form id="contact-me-form">
+					    <input type="text" name="name" placeholder="Name"/>
+					    <input type="email" name="_replyto" placeholder="Email"/>
+					    <textarea class="text-area-message"type="text" name="message" placeholder="Message"></textarea>
+					    <input class="submit-button" type="submit"/>
+					</form>
+					<div class="thanks">
+						Thanks for reaching out!
+					</div>
+				</div>
+				<script>
+					$('#contact-me-form').submit(function(e){
+					    e.preventDefault();
+					    e.stopPropagation();
+					    $.ajax({
+					        url: "//formspree.io/tara.pach+website@gmail.com",
+						    method: "POST",
+						    data: $('#contact-me-form').serialize(),
+						    dataType: "json",
+					        success:function() {
+					        	$('.thanks').slideDown();
+					        }
+					    });
+					});
+				</script>
+
+			</div>
+			
 		</div>
-		<div class="contact-me-box">
-			<div class="contact-me-photo">
-			</div>
-
-			<div>
-				<form id="contact-me-form">
-				    <input type="text" name="name" placeholder="Name"/>
-				    <input type="email" name="_replyto" placeholder="Email"/>
-				    <textarea class="text-area-message"type="text" name="message" placeholder="Message"></textarea>
-				    <input class="submit-button" type="submit"/>
-				</form>
-				<div class="thanks">
-					Thanks for reaching out!
-				</div>
-			</div>
-			<script>
-				$('#contact-me-form').submit(function(e){
-				    e.preventDefault();
-				    e.stopPropagation();
-				    $.ajax({
-				        url: "//formspree.io/tara.pach+website@gmail.com",
-					    method: "POST",
-					    data: $('#contact-me-form').serialize(),
-					    dataType: "json",
-				        success:function() {
-				        	$('.thanks').slideDown();
-				        }
-				    });
-				});
-			</script>
-
-		</div>
 
 
-		<div class="contact-my-reps-box">	
 
 
-			<div class="contact-rep contact-about-face">	
-				<div class="rep-type-title">A<br>G<br>E<br>N<br>C<br>Y</div>
-
-				<div class="contact-rep-details">
-					<div class="agency-name">About Face Division</div>
-					<div class="agent-name">Alice Skiba</div>
-					<div class="agency-details">(212) 221-1518</div>
-					<a class="special-link" "agency-details" href="mailto:aboutfacedivision@gmail.com">aboutfacedivision@gmail.com</a>
-				</div>
-			</div>
-
-
-			<div class="contact-rep contact-multi-ethnic">
-				<div class="rep-type-title manager-title">M<br>A<br>N<br>A<br>G<br>E<br>R</div>
-
-				<div class="contact-rep-details">
-					
-					<div class="agency-name">Multi-Ethnic Talent</div>
-					<div class="agent-name">Annette Alvarez</div>
-					<div class="agency-details">(917) 689-8459 </div>
-					<a class="special-link" "agency-details" href="mailto:multiethnictalent@gmail.com">multiethnictalent@gmail.com</a>
-					
-				</div>
-			</div>
-
-
-	</div>	
+		
 </div>
 
 

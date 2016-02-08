@@ -39,11 +39,12 @@
     
 
 .about-text-box-wrapper{
-	margin: 0 auto;
+	float: left;
 	width: 400px;
 }
 
 .about-text-box {
+	text-align: left;
     float: left;
     height: 60px;
     width: 120px;
@@ -241,7 +242,22 @@
 .vertical-headshot-list-item{
 	float: left;
 	height: 250px;
+	
+}
+
+.image-holder{
+	float: left;
+	height: 250px;
 	margin: 20px 25px 10px 20px; 
+	position: relative;
+}
+
+.photo-by-text{
+	position: absolute;
+	font-size: .5em;
+	color: gray;
+	margin-top: 250px;
+
 }
 
 
@@ -256,17 +272,34 @@
 /*Contact Me*/
 
 .contact-me-wrapper{
-	width: 935px;
+	width: 880px;
 	margin: 0 auto;
 }
 
-.contact-me-box{
-	float:left;
-	width:550px;
+.contact-column-title{
+	float: left;
+	margin-bottom: 25px;
+	margin-top: 40px;
+}
+.contact-column{
+	float: left;
 	display: inline-block;
-
 }
 
+.contact-column-one{
+	width: 350px;
+}
+
+.contact-column-two{
+    width: 500px;
+    margin-left: 25px;
+    
+}
+
+.contact-me-box{
+	float: left;
+	width: 500px;
+}
 .contact-me-photo{
 	float: left;
 	height:300px;
@@ -275,13 +308,6 @@
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 2px -100px;
-}
-
-.contact-my-reps-box{
-	float: left;
-	display: inline-block;
-	margin-left: 40px;
-
 }
 
 .contact-rep{

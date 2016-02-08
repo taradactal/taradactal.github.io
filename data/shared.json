@@ -94,6 +94,12 @@
 
 
 	"random": [
+
+		{
+			"title": "Filming is so glamorous",
+			"imageUrls": ["/photos/shotinbathroom.JPG"]
+		},
+
 		{
 			"title": "Hollywood Reporter Writers Roundtable",
 			"youtubeLink": "https://www.youtube.com/embed/G-GKiB43iJs"
@@ -105,7 +111,13 @@
 			"imageUrls": ["/photos/kapowiFanArt1.png", "/photos/kapowiFanArt2.png"]
 		},
 
-			{
+
+		{	"title": "me building this site",
+			"imageUrls": ["/photos/buildingsite.JPG"]
+
+		},
+
+		{
 			"title": "My Favorite video",
 			"youtubeLink": "https://www.youtube.com/embed/dQw4w9WgXcQ"
 		}
