@@ -1,28 +1,39 @@
 {
 	"news": [
 		{
-			"title": "Radio Play Live Taping",
+			"title": "Radio Play Live Recording",
 			"dateRange": "3/27/16",
 			"contentTeaser": "Performing in the Dreamscape theater's night of radio plays.",
-			"contentFull": "If you're into scary stories you're definitely going to get a kick out of Alex Thompson's play <em>Spring Eternal</em>. Dreamscape theater is recording this Radio Play as part of a full evening our auditory theatrics! <a href='https://www.facebook.com/events/1756561587906641/'>Come check it out</a>",
+			"contentFull": "If you're into scary stories you're definitely going to get a kick out of Alex Thompson's play <em>Spring Eternal</em>. Dreamscape theater is recording this radio play as part of a full evening of auditory theatrics! <br><br><a href='https://www.facebook.com/events/1756561587906641/'>Come check it out</a>",
 			"videoUrl": "",
 			"imageUrl": "/photos/newsimages/radioplay.png"
 		},
 
 		{
-			"title": "Improv Class",
-			"dateRange": "",
-			"contentTeaser": "Taking this time between projects to brush up on my improv skills at <a href='https://ucbtrainingcenter.com/'>The UCB</a><br></br>
-			I’m also newly part of an indi team that goes by \"Family Game Night\". Follow me on twitter (<a href='https://twitter.com/theTaradactal'>@thetaradactal</a>) to catch us at an upcoming show!",
-			"contentFull": "",
+			"title": "NYT Article about my manager",
+			"dateRange": "3/31/16",
+			"contentTeaser": "<em>\"Fighting to Give Minority Actors the Spotlight\"</em><br>Great little piece about Annett and how Multi-Ethnic fits into the industry's big picture.<br><a href='http://www.nytimes.com/2016/03/14/nyregion/fighting-to-give-minority-actors-the-spotlight.html'>Check it out</a>",
+			"contentFull": "<b><a href='<a href='http://www.nytimes.com/2016/03/14/nyregion/fighting-to-give-minority-actors-the-spotlight.html'>\"Fighting to Give Minority Actors the Spotlight\"</a></b><br>Great little piece about Annett and how Multi-Ethnic fits into the industry's big picture.<br><br> \"The smaller, less glamorous parts on television and in film are usually available to all actors. But the bigger roles, the star spots, often elude minority actors. Annette E. Alvarez, a talent manager in New York City, has been trying to change that, pushing for a broader range of roles for minority actors since 1994.\"",
 			"videoUrl": "",
-			"imageUrl": ""
+			"imageUrl": "/photos/newsimages/nyt.png"
+		},
+
+
+
+
+		{
+			"title": "Improv Class",
+			"dateRange": "ongoing",
+			"contentTeaser": "Taking this time between projects to brush up on my improv skills at <a href='https://ucbtrainingcenter.com/'>The&nbsp;UCB</a><br></br>I've also started performing with an indi team \"Family Game Night\". Follow me on twitter (<a href='https://twitter.com/theTaradactal'>@thetaradactal</a>) to follow our shows!",
+			"contentFull": "Taking this time between projects to brush up on my improv skills at <a href='https://ucbtrainingcenter.com/'>The&nbsp;UCB</a><br></br>I’m also newly part of an indi team that goes by \"Family Game Night\". Follow me on twitter (<a href='https://twitter.com/theTaradactal'>@thetaradactal</a>) to catch us at an upcoming show!",
+			"videoUrl": "",
+			"imageUrl": "/photos/newsimages/ucblogo.jpg"
 		},
 
 		{
-			"title": "Reading of \"There Are No Angels in the Bushes\" by Stephen Foglia",
+			"title": "Reading of a play by Stephen Foglia",
 			"dateRange": "3/15/16",
-			"contentTeaser": "Teaming up with some friends at the Dreamscape Theater to read a new play by a very talened Columbia MFA playwright. <br> <br> Here's a <a href='https://www.facebook.com/events/1080136525392025/'>Facebook Event</a> for the facebook inclined",
+			"contentTeaser": "Teaming up with some friends at the Dreamscape Theater to read a new play by a very talened Columbia MFA playwright, \"There Are No Angels in the Bushes\". <br> <br> Here's a <a href='https://www.facebook.com/events/1080136525392025/'>Facebook Event</a> for the facebook inclined",
 			"contentFull": "Teaming up with some friends at the Dreamscape Theater to read a new play by a very talened Columbia MFA playwright. <br> <br> Here's a <a href='https://www.facebook.com/events/1080136525392025/'>Facebook Event</a> for the facebook inclined",
 			"videoUrl": "",
 			"imageUrl": "/photos/newsimages/dreamscape.png"

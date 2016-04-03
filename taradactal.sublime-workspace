@@ -1,0 +1,686 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"clo",
+				"background-color"
+			],
+			[
+				"color",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"rep",
+				"rep-detail"
+			],
+			[
+				"im",
+				"imageUrls"
+			],
+			[
+				"content",
+				"contentFull"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"contact-colum",
+				"contact-column-one"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"conte",
+				"contentFull"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"contact",
+				"contact-section-title"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"b",
+				"inline-block"
+			],
+			[
+				"Measure",
+				"MeasureUP"
+			],
+			[
+				"news",
+				"newsimages"
+			],
+			[
+				"news-",
+				"news-page-detail"
+			],
+			[
+				"backgrou",
+				"background-size"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"tara-header",
+				"tara-header-quote"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"margn",
+				"margin-top"
+			],
+			[
+				"conta",
+				"contact-multi-ethnic"
+			],
+			[
+				"contac",
+				"contact-rep-details"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"block",
+				"block"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"mag",
+				"margin-left"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"tara",
+				"tara-header"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"random",
+				"random-column"
+			],
+			[
+				"width",
+				"width"
+			],
+			[
+				"teaser",
+				"teaser-title"
+			],
+			[
+				"foter",
+				"footer-link"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"footer",
+				"footer-section"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"image",
+				"background-image"
+			],
+			[
+				"backgroun",
+				"background-position"
+			],
+			[
+				"backgrount",
+				"background-repeat"
+			],
+			[
+				"nav-bar",
+				"nav-bar-wrapper"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"se",
+				"section	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "source/_newsTeaserItem.handlebars",
+			"settings":
+			{
+				"buffer_size": 222,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/about/_layout.handlebars",
+			"settings":
+			{
+				"buffer_size": 1789,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/styles/about.css",
+			"settings":
+			{
+				"buffer_size": 6169,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tarapacheco/src/taradactal.github.io/styles/about.css",
+		"/Users/tarapacheco/src/taradactal.github.io/source/styles/main.css",
+		"/Users/tarapacheco/src/taradactal.github.io/data/shared.json",
+		"/Users/tarapacheco/src/taradactal.github.io/source/news/_layout.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/source/_layout.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/styles/main.css",
+		"/Users/tarapacheco/src/taradactal.github.io/source/media/_layout.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/source/_header.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/data/resume/index.json",
+		"/Users/tarapacheco/src/taradactal.github.io/source/contact/_layout.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/data/random/index.json",
+		"/Users/tarapacheco/src/taradactal.github.io/data/news/index.json",
+		"/Users/tarapacheco/src/taradactal.github.io/data/media/index.json",
+		"/Users/tarapacheco/src/taradactal.github.io/data/directing/index.json",
+		"/Users/tarapacheco/src/taradactal.github.io/source/styles/about.css",
+		"/Users/tarapacheco/src/taradactal.github.io/source/styles/contact.css",
+		"/Users/tarapacheco/src/taradactal.github.io/help.txt",
+		"/Users/tarapacheco/src/taradactal.github.io/source/random/_layout.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/source/about/_layout.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/source/directing/_layout.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/source/_newsPageItem.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/source/resume/_layout.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/random/index.html",
+		"/Users/tarapacheco/src/taradactal.github.io/source/_newsTeaserItem.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/taracontact.png",
+		"/Users/tarapacheco/src/taradactal.github.io/source/_footer.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/data/index.json",
+		"/Users/tarapacheco/src/taradactal.github.io/config.json",
+		"/Users/tarapacheco/src/taradactal.github.io/source/photos/taraheadshot.jpg",
+		"/Users/tarapacheco/src/taradactal.github.io/data/about/index.json",
+		"/Users/tarapacheco/src/taradactal.github.io/index.html",
+		"/Users/tarapacheco/src/taradactal.github.io/source/photos/bryantandstrattongrab.png",
+		"/Users/tarapacheco/src/taradactal.github.io/helpfulcommands.txt",
+		"/Users/tarapacheco/src/taradactal.github.io/photos/bryantandstrattongrab.png",
+		"/Users/tarapacheco/Desktop/bryantandstrattongrab.png",
+		"/Users/tarapacheco/src/taradactal.github.io/.gitignore",
+		"/Users/tarapacheco/Documents/Tara/Tara Acting Materials/TaraPachecoHeadshot.jpg",
+		"/Users/tarapacheco/src/taradactal.github.io/maybe useful for mobile",
+		"/Users/tarapacheco/src/style.css",
+		"/Users/tarapacheco/src/style-orig.css",
+		"/Users/tarapacheco/src/taradactal.github.io/resume/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"homepage-bar",
+			"reps-teaser",
+			"title",
+			"rep-teaser-title",
+			"%",
+			"radio",
+			"}\n",
+			"photo-by",
+			";\n",
+			"headshots",
+			"headshot",
+			"teaser",
+			"shadd",
+			"about",
+			"paragraph",
+			"}\n",
+			"color:",
+			"#f5f",
+			"contact-rep",
+			";\n",
+			"margin-left",
+			"photo",
+			"\"content\"",
+			"tara",
+			"black",
+			"relative",
+			"absol",
+			"homepage-sub",
+			"reps-t",
+			"detail",
+			"news",
+			"rep",
+			"title",
+			"sans",
+			"{\n",
+			"about",
+			"#000",
+			"6%",
+			"5%",
+			"7%",
+			"6%",
+			"5%",
+			"blockquote",
+			"sans",
+			"serif",
+			"Hunter Canning",
+			"testing",
+			"horizontal",
+			"frost",
+			"\n    left: 0;",
+			"box",
+			"download",
+			";\n",
+			"directing",
+			"header",
+			"body",
+			";\n",
+			"news-teaser-title",
+			"600",
+			"date",
+			"overflow",
+			"#",
+			"5%",
+			"teaser-title",
+			"line",
+			"body",
+			"image",
+			"footer",
+			"bar",
+			"about",
+			"header",
+			"random",
+			"twitter-icon",
+			"background",
+			"backgroun",
+			"backgrount",
+			"background-image",
+			";\n",
+			"body",
+			"1080",
+			"1280",
+			"1080",
+			"footer",
+			"font-fam",
+			"font",
+			"body",
+			"-->\n",
+			"title",
+			"about",
+			"margin",
+			"about",
+			"40px",
+			"30px",
+			"margin-right",
+			"40",
+			"80",
+			"media",
+			"underline",
+			"contact",
+			"news",
+			"white",
+			"magentag",
+			"rep",
+			";\n",
+			"about",
+			"title",
+			"background-color",
+			"title",
+			"welcome",
+			"upcoming",
+			"about",
+			"section",
+			"tara-about-teaser",
+			"body",
+			"charise",
+			".swf",
+			"1-1",
+			"http://charisegreene.com/wordpress/wp-content/uploads/2015/12/C5J1045-1-1.jpg",
+			"http:",
+			"45-1",
+			"white",
+			"0171",
+			"1045",
+			"http:",
+			"www.",
+			"header",
+			"title",
+			"enter"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"contentFull\"",
+			"photo by Hunter Canning",
+			"Hunter Canning"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "source/_newsTeaserItem.handlebars",
+					"settings":
+					{
+						"buffer_size": 222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/about/_layout.handlebars",
+					"settings":
+					{
+						"buffer_size": 1789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1708,
+								1708
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 165.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "source/styles/about.css",
+					"settings":
+					{
+						"buffer_size": 6169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6000,
+								6000
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6325.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.324027272344,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"header",
+				"source/_header.handlebars"
+			],
+			[
+				"shared",
+				"data/shared.json"
+			],
+			[
+				"about",
+				"source/styles/about.css"
+			],
+			[
+				"random",
+				"source/random/_layout.handlebars"
+			],
+			[
+				"media",
+				"source/media/_layout.handlebars"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true
+}

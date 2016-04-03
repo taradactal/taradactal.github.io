@@ -38,23 +38,24 @@
 } 
     
 
-.about-text-box-wrapper{
+.about-buttons-section{
 	float: left;
-	width: 400px;
-}
-
-.about-text-box {
-	text-align: left;
-    float: left;
-    height: 60px;
-    width: 120px;
-    display: inline-block;
+	width: 100%;
+	text-align: left;   
     size: 1em;
-    margin-top: 10px;
+
 }
 
-.about-text-right{
-	width: 270px;
+.about-button{
+	/*border: 1px solid black;*/
+	padding: 5px 20px 5px 20px;
+	background-color: rgba(195,172,147,0.2);
+	float: left;
+	margin-right: 12px;
+}
+
+.about-left-button{
+	margin-right: 35px;
 }
 
 /* Directing Page*/
@@ -418,7 +419,7 @@
 
 
 .news-page-wrapper{
-	width: 950px;
+	width: 900px;
 	margin:0 auto;
 }
 
