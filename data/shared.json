@@ -1,6 +1,14 @@
 {
 	"news": [
 		{
+			"title": "Biotrue Commercial",
+			"dateRange": "4/23/16",
+			"contentTeaser": "NEW spot for Biotrue contact solution ariting online. <a href='/media'>Check it out</a> ",
+			"contentFull": "I filmed a commercial spot for Biotrue contact solution. It's now airing online in all the normal places that companies play adds and that you try and avoid them. <a href='/media'>Check it out</a> ",
+			"videoUrl": "https://player.vimeo.com/video/159356593",
+			"imageUrl": ""
+		},
+		{
 			"title": "Radio Play Live Recording",
 			"dateRange": "3/27/16",
 			"contentTeaser": "Performing in the Dreamscape theater's night of radio plays.",
