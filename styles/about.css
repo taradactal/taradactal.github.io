@@ -50,7 +50,9 @@
 	/*border: 1px solid black;*/
 	padding: 5px 20px 5px 20px;
 	float: left;
-	margin-right: 12px;
+	text-align: left;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 600;
 }
 
 .about-left-button{
@@ -110,7 +112,8 @@
 	color:black;
     float:left;
     margin-bottom: 20px;
-    font-size: 1.5em;
+    font-size: 1.6em;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .random-column-one{	
@@ -127,7 +130,7 @@
 }
 
 .column-one-top{
-	height: 400px;
+	
 }
 
 .column-one-bottom{
@@ -137,6 +140,13 @@
 
 
 .random-column-two{	
+	float: left;
+	margin-left: 48px;
+	height: 1020px;
+	width: 540px;
+}
+
+.scrolling-area{
 	float: left;
 	margin-left: 48px;
 	height: 1020px;
@@ -272,7 +282,7 @@
 /*Contact Me*/
 
 .contact-me-wrapper{
-	width: 880px;
+	width: 690px;
 	margin: 0 auto;
 }
 
@@ -280,6 +290,9 @@
 	float: left;
 	margin-bottom: 25px;
 	margin-top: 40px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 700;
+
 }
 .contact-column{
 	float: left;
@@ -291,7 +304,7 @@
 }
 
 .contact-column-two{
-    width: 500px;
+    width: 310px;
     margin-left: 25px;
     
 }
@@ -299,15 +312,6 @@
 .contact-me-box{
 	float: left;
 	width: 500px;
-}
-.contact-me-photo{
-	float: left;
-	height:300px;
-	width:190px;
-	background-image: url('/photos/taracontact.png');
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: 2px -100px;
 }
 
 .contact-rep{

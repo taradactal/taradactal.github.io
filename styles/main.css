@@ -173,6 +173,9 @@ body{
     font-size: 1.1em;
 }
 
+.bold-it{
+
+}
 .teaser-title{
     color:white;
     text-shadow: 2px 2px 10px #333536;
@@ -185,6 +188,9 @@ body{
     margin-top: -10px;
     pointer-events: none;
     text-decoration: none;
+    letter-spacing: 1.3px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
     
 }
 
@@ -208,6 +214,11 @@ body{
     padding: 90px 20px 20px 10px;
 }
 
+.news-teaserItem-shape{
+    float: left;
+    height: 110px; 
+}
+
 .news-teaser-divider{
     float:left;
     border-top: 1px solid #876A4C;
@@ -215,6 +226,17 @@ body{
     height: 2px;
     margin-bottom: 25px;
     margin-top: 25px;
+
+}
+
+.reps-teaser-divider{
+    float:left;
+    border-top: 1px solid #876A4C;
+    width: 330px;
+    height: 2px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 
 }
 
@@ -326,6 +348,7 @@ body{
     width:385px;
     padding-left: 15px;
 }
+
 
 .first-rep{
     float:left;
