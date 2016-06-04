@@ -40,40 +40,14 @@
 		</div>	
 
 		<div class="contact-column contact-column-two">
-			<div class="page-subheading contact-column-title">Contact Me
+			<div class="page-subheading contact-column-title">Contact Me Directly
 			</div>	
 
-
-			<div class="contact-me-box">
-
-				<div>
-					<form id="contact-me-form">
-					    <input type="text" name="name" placeholder="Name"/>
-					    <input type="email" name="_replyto" placeholder="Email"/>
-					    <textarea class="text-area-message"type="text" name="message" placeholder="Message"></textarea>
-					    <input class="submit-button" type="submit"/>
-					</form>
-					<div class="thanks">
-						Thanks for reaching out!
-					</div>
-				</div>
-				<script>
-					$('#contact-me-form').submit(function(e){
-					    e.preventDefault();
-					    e.stopPropagation();
-					    $.ajax({
-					        url: "//formspree.io/tara.pach+website@gmail.com",
-						    method: "POST",
-						    data: $('#contact-me-form').serialize(),
-						    dataType: "json",
-					        success:function() {
-					        	$('.thanks').slideDown();
-					        }
-					    });
-					});
-				</script>
+			<div class="contact-tara-email agent-name"> <a href="mailto:tara.pach@gmail.com" target"_blank">tara.pach@gmail.com</a>
 
 			</div>
+
+
 			
 		</div>
 

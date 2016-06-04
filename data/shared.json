@@ -1,9 +1,28 @@
 {
 	"news": [
 		{
+			"title": "Adirondack Theater Festival",
+			"dateRange": "6/20/16",
+			"contentTeaser": "I’ll be heading to lovely Glenn Falls, NY this summer to act in the premier of <a href='http://zoesamuel.com/' target='_blank'>Zoe Samuel’s</a> Comedy of Manors. <a href='https://youtu.be/G0rxza90_9A' target='_blank'>Here’s a little taste</a>.",
+			"contentFull": "I’ll be heading to lovely Glenn Falls, NY this summer to act in the premier of <a href='http://zoesamuel.com/' target='_blank'>Zoe Samuel’s</a> Comedy of Manors. <a href='https://youtu.be/G0rxza90_9A' target='_blank'>Watch the teaser</a>. </br> </br> When the old Earl of Whitelingham dies, leaving debts in the millions and an estate about to foreclose, the family tries to save its future by doing what anyone would do: stealing a priceless (and hideous) painting and selling it on the black market. The only problem? Everyone thinks they’re working alone and no one knows which painting to steal. In just a single afternoon, countless identities are mistaken, crazy cats are hunted, paintings are set on fire (and maybe the cat too), and one accidental murder could save the day in this hysterical modern farce that will keep you laughing until the very end. </br> </br> <a href= 'http://www.atfestival.org/event/a-comedy-of-manors/' target='_blank'>Tickets & Info</a> ",
+			"videoUrl": "",
+			"imageUrl": "/photos/newsimages/comedyofmanors.png"
+		},
+
+		{
+			"title": "MTV Scream Live Promo ",
+			"dateRange": "5/13/16",
+			"contentTeaser": "Run around the MTV TRL studios while being chased by a masked murder? Check! </br> </br>Watch the full promo for MTV’s Scream <a href='https://youtu.be/9upmffhfhws?t=5m4s' target='_blank'>here</a>. It includes the first 7 minutes of Season 2",
+			"contentFull": "Run around the MTV TRL studios while being chased by a masked murder? Check! </br> </br>Watch the full promo for MTV’s Scream <a href='https://youtu.be/9upmffhfhws?t=5m4s' target='_blank'>here</a>. It includes the first 7 minutes of Season 2",
+			"videoUrl": "",
+			"imageUrl": "/photos/newsimages/MTVscreamlive.png",
+			"imageLink": "https://www.google.com"
+		},
+
+		{
 			"title": "Biotrue Commercial",
 			"dateRange": "4/23/16",
-			"contentTeaser": "NEW spot for Biotrue contact solution ariting online. <a href='/media'>Check it out</a> ",
+			"contentTeaser": "NEW spot for Biotrue contact solution airing online. <a href='/media'>Check it out</a> ",
 			"contentFull": "I filmed a commercial spot for Biotrue contact solution. It's now airing online in all the normal places that companies play adds and that you try and avoid them. <a href='/media'>Check it out</a> ",
 			"videoUrl": "https://player.vimeo.com/video/159356593",
 			"imageUrl": ""
@@ -142,6 +161,22 @@
 
 
 	"random": [
+
+		{
+			"title": "DP/30 with Samuel L. Jackson",
+			"contentFull": "I LOVE DP/30 interviews but this first one with Samuel L. Jackson is really great! </br>",
+			"youtubeLink": "https://www.youtube.com/embed/QMyjYCuYKEM"
+		},
+
+		{
+			"title": "Lupita Nyong'o's Lenny Letter is so on point",
+			"contentFull": "\"I think as women, as women of color, as black women, too often we hear about what we \"need to do.\" How we need to behave, what we need to wear, what's deemed as too much or not enough, the cultural politics of what society considers appropriate for us and for our lives. What I am learning is that the most important questions you can ask yourself are \"What do I want?\" and \"Who do I want to become?\" </br></br><a href='http://www.lennyletter.com/work/a361/why-i-chose-a-small-play-over-the-big-screen/' target='_blank'>Read the whole thing</a>."
+		},
+
+		{
+			"title": "Really interesting, old article about Philip Seymour Hoffman in the NTY",
+			"contentFull": "\"Creating anything is hard. It’s a cliché thing to say, but every time you start a job, you just don’t know anything. I mean, I can break something down, but ultimately I don’t know anything when I start work on a new movie. You start stabbing out, and you make a mistake, and it’s not right, and then you try again and again. The key is you have to commit. And that’s hard because you have to find what it is you are committing to.\" </br></br><a href='http://mobile.nytimes.com/2008/12/21/magazine/21hoffman-t.html?referer' target='_blank'>Read the whole thing</a>."
+		},	
 
 		{
 			"title": "Filming is so glamorous",
