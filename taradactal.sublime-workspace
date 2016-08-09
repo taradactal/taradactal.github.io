@@ -4,16 +4,68 @@
 		"selected_items":
 		[
 			[
-				"clo",
+				"mar",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"margn",
+				"margin-right"
+			],
+			[
+				"mari",
+				"margin-bottom"
+			],
+			[
+				"headshot-column",
+				"headshot-columnOne"
+			],
+			[
+				"ba",
 				"background-color"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-right"
 			],
 			[
 				"color",
 				"background-color"
 			],
 			[
-				"margin",
-				"margin-top"
+				"medi",
+				"media-wrapper"
+			],
+			[
+				"clo",
+				"background-color"
 			],
 			[
 				"bor",
@@ -32,16 +84,8 @@
 				"contentFull"
 			],
 			[
-				"margi",
-				"margin-top"
-			],
-			[
 				"contact-colum",
 				"contact-column-one"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"font-s",
@@ -54,10 +98,6 @@
 			[
 				"tex",
 				"text-align"
-			],
-			[
-				"marg",
-				"margin-top"
 			],
 			[
 				"conte",
@@ -80,10 +120,6 @@
 				"border-bottom"
 			],
 			[
-				"mar",
-				"margin-left"
-			],
-			[
 				"b",
 				"inline-block"
 			],
@@ -101,10 +137,6 @@
 			],
 			[
 				"backgrou",
-				"background-size"
-			],
-			[
-				"ba",
 				"background-size"
 			],
 			[
@@ -128,20 +160,12 @@
 				"background-color"
 			],
 			[
-				"margn",
-				"margin-top"
-			],
-			[
 				"conta",
 				"contact-multi-ethnic"
 			],
 			[
 				"contac",
 				"contact-rep-details"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"block",
@@ -153,10 +177,6 @@
 			],
 			[
 				"pad",
-				"padding"
-			],
-			[
-				"padding",
 				"padding"
 			],
 			[
@@ -251,30 +271,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "source/_newsTeaserItem.handlebars",
-			"settings":
-			{
-				"buffer_size": 222,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/about/_layout.handlebars",
-			"settings":
-			{
-				"buffer_size": 1789,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/styles/about.css",
-			"settings":
-			{
-				"buffer_size": 6169,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -300,30 +296,36 @@
 	},
 	"file_history":
 	[
-		"/Users/tarapacheco/src/taradactal.github.io/styles/about.css",
+		"/Users/tarapacheco/Downloads/mailFilters.xml",
 		"/Users/tarapacheco/src/taradactal.github.io/source/styles/main.css",
-		"/Users/tarapacheco/src/taradactal.github.io/data/shared.json",
+		"/Users/tarapacheco/src/taradactal.github.io/source/random/_layout.handlebars",
 		"/Users/tarapacheco/src/taradactal.github.io/source/news/_layout.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/source/_newsPageItem.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/data/shared.json",
 		"/Users/tarapacheco/src/taradactal.github.io/source/_layout.handlebars",
-		"/Users/tarapacheco/src/taradactal.github.io/styles/main.css",
-		"/Users/tarapacheco/src/taradactal.github.io/source/media/_layout.handlebars",
-		"/Users/tarapacheco/src/taradactal.github.io/source/_header.handlebars",
-		"/Users/tarapacheco/src/taradactal.github.io/data/resume/index.json",
 		"/Users/tarapacheco/src/taradactal.github.io/source/contact/_layout.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/source/styles/about.css",
+		"/Users/tarapacheco/src/taradactal.github.io/source/about/_layout.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/source/styles/contact.css",
+		"/Users/tarapacheco/src/taradactal.github.io/source/styles/normalize.css",
+		"/Users/tarapacheco/src/taradactal.github.io/source/_header.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/source/media2/_layout.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/source/production/_layout.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/source/headshots/_layout.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/source/media/_layout.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/data/media/index.json",
+		"/Users/tarapacheco/src/taradactal.github.io/source/_newsTeaserItem.handlebars",
+		"/Users/tarapacheco/src/taradactal.github.io/taradactal.sublime-project",
+		"/Users/tarapacheco/src/taradactal.github.io/styles/about.css",
+		"/Users/tarapacheco/src/taradactal.github.io/styles/main.css",
+		"/Users/tarapacheco/src/taradactal.github.io/data/resume/index.json",
 		"/Users/tarapacheco/src/taradactal.github.io/data/random/index.json",
 		"/Users/tarapacheco/src/taradactal.github.io/data/news/index.json",
-		"/Users/tarapacheco/src/taradactal.github.io/data/media/index.json",
 		"/Users/tarapacheco/src/taradactal.github.io/data/directing/index.json",
-		"/Users/tarapacheco/src/taradactal.github.io/source/styles/about.css",
-		"/Users/tarapacheco/src/taradactal.github.io/source/styles/contact.css",
 		"/Users/tarapacheco/src/taradactal.github.io/help.txt",
-		"/Users/tarapacheco/src/taradactal.github.io/source/random/_layout.handlebars",
-		"/Users/tarapacheco/src/taradactal.github.io/source/about/_layout.handlebars",
 		"/Users/tarapacheco/src/taradactal.github.io/source/directing/_layout.handlebars",
-		"/Users/tarapacheco/src/taradactal.github.io/source/_newsPageItem.handlebars",
 		"/Users/tarapacheco/src/taradactal.github.io/source/resume/_layout.handlebars",
 		"/Users/tarapacheco/src/taradactal.github.io/random/index.html",
-		"/Users/tarapacheco/src/taradactal.github.io/source/_newsTeaserItem.handlebars",
 		"/Users/tarapacheco/src/taradactal.github.io/taracontact.png",
 		"/Users/tarapacheco/src/taradactal.github.io/source/_footer.handlebars",
 		"/Users/tarapacheco/src/taradactal.github.io/data/index.json",
@@ -358,6 +360,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<a",
+			"if",
+			"type",
+			"news",
+			"random",
+			"random ",
+			"Marcellus+SC",
+			"news",
+			"item",
+			"represe",
+			"random",
+			"insta",
+			"productio",
+			"wrapper",
+			"img",
+			"nav",
 			"homepage-bar",
 			"reps-teaser",
 			"title",
@@ -469,23 +487,7 @@
 			"welcome",
 			"upcoming",
 			"about",
-			"section",
-			"tara-about-teaser",
-			"body",
-			"charise",
-			".swf",
-			"1-1",
-			"http://charisegreene.com/wordpress/wp-content/uploads/2015/12/C5J1045-1-1.jpg",
-			"http:",
-			"45-1",
-			"white",
-			"0171",
-			"1045",
-			"http:",
-			"www.",
-			"header",
-			"title",
-			"enter"
+			"section"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -506,95 +508,13 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "source/_newsTeaserItem.handlebars",
-					"settings":
-					{
-						"buffer_size": 222,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								29,
-								29
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "source/about/_layout.handlebars",
-					"settings":
-					{
-						"buffer_size": 1789,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1708,
-								1708
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 165.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 2,
-					"file": "source/styles/about.css",
-					"settings":
-					{
-						"buffer_size": 6169,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6000,
-								6000
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 6325.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -626,7 +546,7 @@
 		"cols":
 		[
 			0.0,
-			0.324027272344,
+			0.936143039591,
 			1.0
 		],
 		"rows":
@@ -681,6 +601,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 193.0,
+	"side_bar_width": 304.0,
 	"status_bar_visible": true
 }
