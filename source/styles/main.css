@@ -227,16 +227,6 @@ body{
     margin-bottom: 25px;
     margin-top: 25px;
 
-}
-
-.reps-teaser-divider{
-    float:left;
-    border-top: 1px solid #876A4C;
-    width: 330px;
-    height: 2px;
-    margin-left: 3px;
-    margin-bottom: 10px;
-    margin-top: 10px;
 
 }
 
@@ -354,20 +344,20 @@ body{
 .first-rep{
     float:left;
     margin-top: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .second-rep{
     float: left;
     margin-top: 20px;
-    bottom:15px;
+    bottom:5px;
     
 } 
 .homepage-rep-type{
     font-weight: bold;
     color:#6d6b64;
     font-size: .8em;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 
 }    
 

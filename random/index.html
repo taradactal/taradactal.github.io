@@ -64,6 +64,75 @@
 		<div class="random-column random-column-two">
 			<div class="random-column-title"><strong>Other Things</strong></div>
 				<div class="scrolling-area">
+					<!-- <head> if jquery isn't on the page already -->
+					<script	src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+					<!-- <head>, another file, wherever -->
+					<script type="text/javascript">
+					function tumblr(resp) {
+						console.log(resp);
+						var posts = resp.posts;
+						$ul = $('#blog ul');
+
+						var list = $('.tumblr-list');
+						for (var i=0; i<posts.length; i++) {
+							var post = posts[i];
+							var postWrapper = $('<div class="post-wrapper"></div>');
+							// does it have video?
+							if (post['video-player']) {
+								postWrapper.append(post['video-player']);
+								// on top of that... does it have a caption?
+								if (post['video-caption']) {
+									postWrapper.append('<div class="post-caption">' + post['video-caption'] + '</div>');
+								}
+							} else if (post['regular-body']) {
+								postWrapper.append('<div class="post-title">' + post['regular-title'] + '</div>');
+								postWrapper.append('<div class="post-caption">' + post['regular-body'] + '</div>');
+							} else if (post['photo-url-400']) {
+								postWrapper.append('<img class="tumblr-photo" src="' + post['photo-url-400'] + '"></div>');
+								postWrapper.append('<div class="photo-caption">' + post['photo-caption'] + '</div>');
+							// always append it at the end
+							} else if (post['quote-text']) {
+								postWrapper.append('<div class="tumbler-quote">' + post['quote-text'] + '</div>');
+								postWrapper.append('<div class="quote-source">' + post['quote-source'] + '</div>');
+							// always append it at the end
+							}
+							list.append(postWrapper);
+
+			                /*
+			                	video caption + regular body = .post-caption
+
+			                	regular title = .post-title
+
+			                	each post has .post-wrapper on the outside
+
+			                	outer is see below for html
+
+			                	video player just sits there... just leave it
+
+
+							*/
+						}
+						$('.loading-tumblr').remove();
+					}
+					</script>
+
+					<!-- Where you want your tumblog -->
+					<div id="blog">
+						<div class="tumblr-list">
+
+						</div>
+						<span class="loading-tumblr">Loading Tumbler</span>
+					</div>
+
+					<!-- Bottom of the page, probably.  Change host -->
+					<script src="http://thetaradactal.tumblr.com/api/read/json?callback=tumblr&amp;num=10" type="text/javascript"></script>
+				
+
+
+
+
+				<!--
+
 					<div class="column-two-item">
 						<div class="column-two-item-title">DP/30 with Samuel L. Jackson</div>
 						<div class="column-two-item-deets">I LOVE DP/30 interviews but this first one with Samuel L. Jackson is really great! </br>
@@ -140,6 +209,9 @@
 						</div>
 						<div class="random-stuff-divider"></div>
 					</div>
+
+				
+				-->
 
 				</div>
 		</div>

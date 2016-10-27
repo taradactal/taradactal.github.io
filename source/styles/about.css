@@ -153,6 +153,41 @@
 	overflow: auto;
 }
 
+.post-caption {
+	padding-top: 15px;
+	margin-bottom: 20px;
+	line-height: 25px;
+	font-size: .9em;
+}
+
+.post-title{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.post-wrapper{
+	margin-top: 15px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #5d5954;
+	padding-bottom: 20px;
+
+}
+
+.photo-caption{
+	padding-top: 20px;
+	margin-bottom: 10px;
+	line-height: 25px;
+	font-size: .9em;
+}
+
+.tumbler-quote{
+	font-size: .9em;
+	line-height: 25px;
+	
+}
+
+
+/*
 .column-two-item{
 	float:left;
 	width: 400px;
@@ -196,7 +231,7 @@
     margin-top: 25px;
 
 }
-
+*/
 
 
 /* Media Page*/
