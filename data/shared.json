@@ -1,12 +1,32 @@
 {
+	
 	"news": [
+
+		{
+			"title": "Shot my first real Co-Star role!",
+			"dateRange": "10/28/16",
+			"contentTeaser": "I'll be on NBC's Shades of Blue's 2nd season. <br>Stay tuned for more info.<br>If I'm still in it when it airs, I'll definitly be making some noise about it :) ",
+			"contentFull": "I'll be on NBC's Shades of Blue's 2nd season. <br>Stay tuned for more info.<br>If I'm still in it when it airs, I'll definitly be making some noise about it :) ",
+			"videoUrl": "",
+			"imageUrl": "/photos/newsimages/shadesofblue.png"
+		},
+
+		{
+			"title": "Magic Time Reading @ Judson Church",
+			"dateRange": "10/19/16",
+			"contentTeaser": "Doing a reading a great new play, <em>Bodywork</em> by Zack Calhoon. Directed by the awesome Brad Raimondo and featuring some of my favorite folks to do new work with.",
+			"contentFull": "Doing a reading a great new play, <em>Bodywork</em> by Zack Calhoon. Directed by the awesome Brad Raimondo and featuring some of my favorite folks to do new work with. <br><br><a href='http://www.judson.org/magictime'>Check it out</a>",
+			"videoUrl": "",
+			"imageUrl": "/photos/newsimages/bodyworkplay.jpg"
+		},
+
 		{
 			"title": "Reading of The Near Far by Leland Frankel",
 			"dateRange": "8/13/16",
 			"contentTeaser": "I'll be tackling multiple dialects and realities in this darkly comic sci-fi fever dream, directed by Christine Zagrobelny. <br><a href='https://www.facebook.com/turntofleshproductions'>More info </a>",
 			"contentFull": "In the past, Solo is a young girl living on a distant Pacific Island. In the future, she is an astronaut hurtling through space towards a distant star system. These twin realities blur as a bizarre menagerie of entities become her guides - her bickering childhood toys, and her philosophical A.I., in this darkly comic sci-fi fever dream. <br> <br> <a href='https://www.facebook.com/turntofleshproductions'>More info </a>",
 			"videoUrl": "",
-			"imageUrl": "/photos/newsimages/turntofleshpic.jpg"
+			"imageUrl": "/photos/newsimages/TurntoFleshpic.jpg"
 		},
 
 		{
